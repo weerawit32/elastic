@@ -34,21 +34,19 @@ const SearchObserve = () => {
             className=" col-md-4 text-start position-relative d-flex flex-column justify-content-between p-md-0 py-sm-4 py-4
             border-bottom-md-0 border-sm-bottom border-bottom"
           >
-            <div >
+            <div>
               <h5 className="text-muted">Analyst Reports</h5>
               <h3>
-                The Forrester Wave Endpoint Detection and response Providers 20202
+                The Forrester Wave Endpoint Detection and response Providers
+                20202
               </h3>
               <p>
                 Elastic named s Strong Performance and included among the most
                 significant vendors.
               </p>
             </div>
-            <a
-              href="/"
-              className="arrow__link d-inline-block stretched-link "
-            >
-              &rarr;
+            <a href="/" className="arrow__link d-inline-block stretched-link ">
+              &rarr
             </a>
           </div>
           <div
@@ -59,32 +57,25 @@ const SearchObserve = () => {
               <h5 className="card__title text-muted">Events & Webinars</h5>
               <h3 className="card__header">Get started with Elasticsearch</h3>
               <p>
-                Watch this video to learn how to deploy, manage, and analyyze your
-                data in Elasticsearch
+                Watch this video to learn how to deploy, manage, and analyyze
+                your data in Elasticsearch
               </p>
             </div>
-            <a
-              href="/"
-              className="arrow__link d-inline-block stretched-link "
-            >
+            <a href="/" className="arrow__link d-inline-block stretched-link ">
               &rarr;
             </a>
           </div>
           <div className=" col-md-4 text-start position-relative d-flex flex-column justify-content-between p-md-0 py-sm-4 py-4 mt-md-0 mt-sm-5 mt-5">
-            
-          <div className="card__content">
-            <h5 className="text-muted">What's new</h5>
-            <h3>Ingestion without congestion</h3>
-            <p>
-              In 8.3, get broader observabiliti for cloud, SaaS, and big data
-              apps with serverless log forwarding for AWS and performance
-              insights for Saleforce and Hadoop.
-            </p>
-          </div>  
-            <a
-              href="/"
-              className="arrow__link d-inline-block stretched-link "
-            >
+            <div className="card__content">
+              <h5 className="text-muted">What's new</h5>
+              <h3>Ingestion without congestion</h3>
+              <p>
+                In 8.3, get broader observabiliti for cloud, SaaS, and big data
+                apps with serverless log forwarding for AWS and performance
+                insights for Saleforce and Hadoop.
+              </p>
+            </div>
+            <a href="/" className="arrow__link d-inline-block stretched-link ">
               &rarr;
             </a>
           </div>
