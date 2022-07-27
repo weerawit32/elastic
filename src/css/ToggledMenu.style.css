@@ -1,0 +1,15 @@
+
+
+.menu__list {
+    list-style: none;
+    
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 2rem 2.5rem;
+    color: black;
+
+}

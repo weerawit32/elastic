@@ -1,0 +1,38 @@
+video {
+    width: 100%;
+    max-height: 100%;
+}
+
+.text__arrow-link {
+    display: block;
+}
+
+.text__arrow-link:link,
+.text__arrow-link:visited {
+    text-decoration: none;
+    color: Blue;
+    font-weight: 400;
+    font-size: 1.4rem;
+    transition: all 0.2s;
+    display: inline-block;
+    margin-bottom: 0.4rem;
+    vertical-align: center;
+}
+
+.text__arrow-link:hover,
+.text__arrow-link:active {
+    color: pink;
+    text-decoration: underline;
+    
+}
+
+.text__arrow-link:link span {
+    font-size: 3rem;
+    line-height: 1;
+    transition: all 0.05s;
+}
+
+.text__arrow-link:hover span {
+    transform: translateX(15%);
+    color: black;
+}

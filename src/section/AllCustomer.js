@@ -1,0 +1,67 @@
+import Container from "react-bootstrap/esm/Container";
+import microsoftLogo from "../logo/logohome-microsoft.svg";
+import netflixLogo from "../logo/logohome-netflix.svg";
+import slackLogo from "../logo/logohome-slack.svg";
+import twilloLogo from "../logo/logohome-twilio.svg";
+import uberLogo from "../logo/logohome-uber.svg";
+
+const AllCustomer = () => {
+  return (
+    <section className="bg-light py-5">
+      <Container>
+        <div className="row justify-content-center">
+          <div className="col-8 text-content mt-5 ">
+            <h1 className="fw-bold mb-4">Our customers bring search to life</h1>
+            <p className="mb-5">
+              From startups to the global 2000, Elastic powers search solutions
+              for thousands of companies worldwide to find documents, monitor
+              infrastructure, protect against security threats, and more.
+            </p>
+          </div>
+        </div>
+        <div className="customer_logo-container d-flex flex-wrap justify-content-center  mb-4">
+          <a
+            href="/"
+            className="customer_logo_container rounded-3 me-3 mt-1 bg-white"
+          >
+            <img
+              src={netflixLogo}
+              alt="netflix-logo"
+              width="200"
+              height="91"
+            ></img>
+          </a>
+          <a href="/" className="customer_logo_container me-3 mt-1 bg-white">
+            <img src={uberLogo} alt="uber-logo" width="200" height="91"></img>
+          </a>
+          <a href="/" className="customer_logo_container me-3 mt-1 bg-white">
+            <img src={slackLogo} alt="slack-logo" width="200" height="91"></img>
+          </a>
+          <a href="/" className="customer_logo_container me-3 mt-1 bg-white">
+            <img
+              src={twilloLogo}
+              alt="twillo-logo"
+              width="200"
+              height="91"
+            ></img>
+          </a>
+          <a href="/" className="customer_logo_container  mt-1 bg-white">
+            <img
+              src={microsoftLogo}
+              alt="microsoft-logo"
+              width="200"
+              height="91"
+            ></img>
+          </a>
+        </div>
+        <div>
+          <a href="/" className="text-primary text-decoration-none">
+            <p>View all customers</p>
+          </a>
+        </div>
+      </Container>
+    </section>
+  );
+};
+
+export default AllCustomer;

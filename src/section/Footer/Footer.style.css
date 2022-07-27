@@ -1,0 +1,96 @@
+.footer__link:link,
+.footer__link:visited {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  transition: all 0.1s;
+  display: inline-block;
+  margin-bottom: 0.4rem;
+}
+
+.footer__link:hover,
+.footer__link:active {
+  color: white;
+  text-decoration: underline;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {
+} */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {
+  .footer__form {
+    width: 200px;
+  }
+} */
+
+/* // X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .footer__form {
+    width: 200px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+/* .footer__form-control {
+  }
+} */
+@media (min-width: 1399.98px) {
+  .footer__form {
+    width: 200px;
+  }
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  .footer__form {
+    width: 200px;
+  }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .footer__form {
+    width: 200px;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .footer__form {
+    width: 200px;
+    align-items: center;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .footer__form {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .footer__form-control {
+    flex-grow: 1;
+  }
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .footer__form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer__form-label {
+    align-self: center;
+  }
+}

@@ -1,0 +1,19 @@
+.nav__container {
+    position: relative;
+}
+
+.navbar__text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: black !important;
+    transition: all 0.3s;
+}
+
+.navbar__text:hover {
+    color: grey !important;
+}
+
+.toggleMenu__container {
+    position: absolute;
+    top: 100px;
+}
