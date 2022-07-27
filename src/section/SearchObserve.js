@@ -46,7 +46,7 @@ const SearchObserve = () => {
               </p>
             </div>
             <a href="/" className="arrow__link d-inline-block stretched-link ">
-              &rarr; &rarr;
+              &rarr
             </a>
           </div>
           <div
