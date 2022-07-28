@@ -4,8 +4,21 @@
   min-width: 100%;
 }
 
+.platform__header {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: black;
+  cursor: pointer;
+}
+
+.platform__topic {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
 .platform__list {
   list-style: none;
+  padding-left: 0;
 }
 
 .platform__item {
@@ -19,7 +32,7 @@
   font-weight: 700;
   font-size: 1.4rem;
   transition: all 0.1s;
-  display: inline-block;
+  display: block;
   margin-bottom: 0.4rem;
 }
 
