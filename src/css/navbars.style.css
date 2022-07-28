@@ -1,7 +1,7 @@
 .nav__container {
     display: flex;
     align-items: center;
-    position: relative;
+    
 }
 
 .nav__list {
@@ -33,4 +33,11 @@
     /* top: 100px; */
     z-index: 2;
     background: white;
+}
+
+.platform {
+    position: absolute;
+    z-index: 3;
+    left: 0%;
+    top: 0%;
 }

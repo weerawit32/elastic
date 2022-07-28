@@ -1,0 +1,9 @@
+.platform__container {
+    z-index: 3;
+    position: absolute;
+    min-width: 100%;
+}
+
+.platform__list {
+    list-style: none;
+}

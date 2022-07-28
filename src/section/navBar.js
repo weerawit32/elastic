@@ -12,12 +12,31 @@ import "../css/navbars.style.css";
 import Hamburger from 'hamburger-react';
 import { useState } from "react";
 import ToggledMenu from "../components/ToggledMenu";
+import PlatformDetail from "../components/platformDetail";
 
 function NavScrollExample() {
   const [isOpen, setOpen] = useState(false);
-  return (
+  const [platformIsopen, setPlatformIsopen] = useState(false);
+
+  const platformToggle = () => {
+    setPlatformIsopen(!platformIsopen);  
+  };
+
+  const testClose = () => {
+    setOpen(!isOpen);
+
+    if(!isOpen ) {
+      setPlatformIsopen(false);
+      console.log('open');
+      
+    }
+  }
+  // if(!isOpen) {
+  //   platformIsopen(false);
+  // }
+    return (
     <>
-        <div className="nav__container container-xl border-buttom" style={{ maxHeight: "100px" }}>
+        <div className="nav__container container-xl border-bottom" style={{ maxHeight: "100px" }}>
             <div>
             <img src={elasticLogo} alt="elastic-l" width="80" height="70"></img>
             </div>
@@ -41,19 +60,23 @@ function NavScrollExample() {
                 
             </ul>
             </div>
-            <div className="d-sm-block d-block d-md-none ms-sm-auto ms-auto me-4">
-            <Hamburger toggled={isOpen} toggle={setOpen} />
+            <div className="d-sm-block d-block d-lg-none ms-sm-auto ms-auto me-4">
+            <Hamburger toggled={isOpen} toggle={testClose} />
             </div>
 
           
         </div>
-        <div className="toggleMenu__container container-sm d-md-none d-sm-block d-block">
-          {isOpen && <ToggledMenu/>}
+        <div className="toggleMenu__container container-lg d-md-none d-sm-block d-block">
+          {isOpen && <ToggledMenu togglePlatform={platformToggle}/>}
+          <div className="platform container-fluid text-center">
+            {platformIsopen && <PlatformDetail togglePlatform={platformToggle}/>}
+          </div>
+
         </div>
 
         </>    
     );
-  }
+}
   
   export default NavScrollExample;
 
