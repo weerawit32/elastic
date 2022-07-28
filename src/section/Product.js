@@ -24,7 +24,7 @@ const Product = () => {
               that can be deployed anywhere.
             </p>
             <a href="/" className="text__arrow-link  ">
-              View all Products<span className="d-inline-block ms-2 mt-2">&rarr;</span>
+              View all Products<span className="arrow ms-2 ">&rarr;</span>
             </a>
           </Col>
         </Row>

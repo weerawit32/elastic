@@ -1,7 +1,7 @@
 // import Container from "react-bootstrap/esm/Container";
 // import Row from "react-bootstrap/Row";
 // import Col from "react-bootstrap/Col";
-import "../css/learnTrigger.style.css";
+import "../css/component/learnTrigger.style.css";
 import rightArrow from "../logo/right-arrow.svg";
 
 const LearnTrigger = () => {

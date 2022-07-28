@@ -1,4 +1,4 @@
-import "../css/ToggledMenu.style.css";
+import "../css/component/ToggledMenu.style.css";
 
 const ToggledMenu = () => {
     return (

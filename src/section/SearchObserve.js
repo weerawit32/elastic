@@ -46,9 +46,9 @@ const SearchObserve = () => {
               </p>
             </div>
             <a href="/" className="arrow__link d-inline-block stretched-link ">
-              &rarr
+              &rarr;
             </a>
-            <div>this is text from second branch</div>
+            
           </div>
           <div
             className=" col-md-4 text-start position-relative d-flex flex-column justify-content-between p-md-0 py-sm-4 py-4

@@ -3,7 +3,7 @@ import Tooltip from 'react-bootstrap/Tooltip';
 import Button from 'react-bootstrap/esm/Button';
 import elasticSearchLogo from "../logo/logo-elasticsearch-32-color.svg";
 import plusIcon from "../logo/plus-icon.svg"
-import "../css/productTrigger.css"
+import "../css/component/productTrigger.css"
 
 function ProductTrigger() {
     const renderTooltip = (props) => (
