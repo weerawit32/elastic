@@ -16,7 +16,6 @@
   width: 810px;
   padding: 5px 0;
   border-radius: 6px;
-  background-color: white;
 
   /* Position the tooltip text - see examples below! */
   position: absolute;
@@ -28,6 +27,17 @@
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltips:hover .tooltiptext {
   visibility: visible;
+}
+
+.link__panel {
+  transform: rotate(0);
+  /* to scope stretched-link */
+  background-color: white;
+  transition: all 0.7s;
+}
+
+.link__panel:hover {
+  background-color: skyblue;
 }
 
 .topic__heading {
@@ -54,17 +64,6 @@
 .platform__link:hover,
 .platform__link:active {
   color: rgb(67, 61, 148);
-}
-
-.link__panel {
-  transform: rotate(0);
-  /* to scope stretched-link */
-  background-color: white;
-  transition: all 0.7s;
-}
-
-.link__panel:hover {
-  background-color: skyblue;
 }
 
 .text__link-underline:link,

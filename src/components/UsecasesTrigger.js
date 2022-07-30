@@ -47,7 +47,7 @@ const UsecasesTrigger = () => {
         </div>
         <div className="px-4 second-column">
           <h6 className="topic__heading text-muted">By inductry</h6>
-          <div className="link__panel  p-1 pe-5 postion-relative  ">
+          <div className="link__panel  p-1 pe-5 ">
             <div className="">
               <a href="/" className="platform__link stretched-link ">
                 Public Sector
