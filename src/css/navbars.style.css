@@ -1,43 +1,38 @@
 .nav__container {
-    display: flex;
-    align-items: center;
-    
+  display: flex;
+  align-items: center;
 }
 
 .nav__list {
-    display: flex;
-    list-style: none;
-    gap: 1.5rem;
-    margin-bottom: 0;
-    margin-top: 0;
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  align-items: center;
 }
 
 .nav-link {
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: black !important;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black !important;
 }
 
 .nav__list-right {
-
-    gap: 1rem;
-}
-
-.nav__btn-login {
-    
+  gap: 1rem;
 }
 
 .toggleMenu__container {
-    position: absolute;
-    /* top: 100px; */
-    z-index: 2;
-    background: white;
+  position: absolute;
+  /* top: 100px; */
+  z-index: 2;
+  background: white;
 }
 
 .platform {
-    position: absolute;
-    z-index: 3;
-    left: 0%;
-    top: 0%;
+  position: absolute;
+  z-index: 3;
+  left: 0%;
+  top: 0%;
 }

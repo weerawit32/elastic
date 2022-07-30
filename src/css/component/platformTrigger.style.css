@@ -1,0 +1,34 @@
+.tooltips {
+  position: relative;
+  display: inline-block;
+  color: black;
+  opacity: 1;
+}
+
+/* Tooltip text */
+.tooltips .tooltiptext {
+  visibility: visible;
+
+  background-color: white;
+  color: black;
+  text-align: start;
+  padding: 5px 0;
+  border-radius: 6px;
+  background-color: brown;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  top: 35px;
+  left: 50px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltips:hover .tooltiptext {
+  visibility: visible;
+}
+
+.link-panel {
+  transform: rotate(0);
+  /* to scope stretched-link */
+}

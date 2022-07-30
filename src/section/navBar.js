@@ -7,12 +7,14 @@ import elasticLogo from "../logo/elastic-logo.svg";
 // import ProductTrigger2 from "../components/ProductTrigger2";
 // import LearnTrigger from "../components/LearnTrigger";
 import CompanyTrigger from "../components/CompanyTrigger";
+import PlatformTrigger from "../components/PlatformTrigger";
 // import "../css/navbar.style.css";
 import "../css/navbars.style.css";
 import Hamburger from "hamburger-react";
 import { useState } from "react";
 import ToggledMenu from "../components/ToggledMenu";
 import PlatformDetail from "../components/platformDetail";
+import FooterMenu from "../components/FooterMenu";
 
 function NavScrollExample() {
   const [isOpen, setOpen] = useState(false);
@@ -44,7 +46,7 @@ function NavScrollExample() {
     <>
       <div
         className="nav__container container-xl border-bottom"
-        style={{ maxHeight: "100px" }}
+        style={{ maxHeight: "50px" }}
       >
         <div>
           <img src={elasticLogo} alt="elastic-l" width="80" height="70"></img>
@@ -52,9 +54,7 @@ function NavScrollExample() {
         <div className="d-md-block d-none">
           <ul className="nav__list nav__list-left  ">
             <li>
-              <a href="/" className="nav-link">
-                Products
-              </a>
+              <PlatformTrigger />
             </li>
             <li>
               <a href="/" className="nav-link">
@@ -68,7 +68,7 @@ function NavScrollExample() {
             </li>
             <li>
               <a href="/" className="nav-link">
-                <CompanyTrigger />
+                {/* <CompanyTrigger /> */}Company
               </a>
             </li>
             <li>
@@ -127,6 +127,7 @@ function NavScrollExample() {
           {platformIsopen && <PlatformDetail togglePlatform={platformToggle} />}
         </div>
       </div>
+      <div className="footer__menu">{isOpen && <FooterMenu />}</div>
     </>
   );
 }
