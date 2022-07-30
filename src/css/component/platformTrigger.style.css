@@ -1,4 +1,4 @@
-.tooltips-usecase {
+.tooltips {
   position: relative;
   display: inline-block;
   color: black;
@@ -6,7 +6,7 @@
 }
 
 /* Tooltip text */
-.tooltips-usecase .tooltiptext-usecase {
+.tooltips .tooltiptext {
   visibility: hidden;
 
   background-color: white;
@@ -25,8 +25,8 @@
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltips-usecase:hover .tooltiptext-usecase {
-  visibility: visible;
+.tooltips:hover .tooltiptext {
+  visibility: hidden;
 }
 
 .link__panel {

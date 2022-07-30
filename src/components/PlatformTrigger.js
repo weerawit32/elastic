@@ -7,7 +7,7 @@ const PlatformTrigger = () => {
   return (
     <div className="tooltips">
       Platform
-      <div className=" tooltiptext d-flex  p-2 ps-3 shadow">
+      <div className=" tooltiptext d-flex  p-4 pt-2 shadow">
         <div className="pe-4 first-column">
           <h6 className="topic__heading text-muted ">Elastic Clound</h6>
           <h6 className="topic__heading py-1">
@@ -46,7 +46,7 @@ const PlatformTrigger = () => {
         </div>
         <div className="px-4 border-end">
           <h6 className="topic__heading text-muted">Use elastic for</h6>
-          <div className="link__panel d-flex p-1 pe-5 postion-relative  ">
+          <div className="link__panel d-flex p-1 pe-5">
             <img src={enterpriseLogo} width="24"></img>
             <div className="ms-4">
               <a href="/" className="platform__link stretched-link ">

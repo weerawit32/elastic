@@ -3,6 +3,7 @@
   display: inline-block;
   color: black;
   opacity: 1;
+  padding: 1rem 1.5rem;
 }
 
 /* Tooltip text */
@@ -20,19 +21,13 @@
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
-  top: 25px;
+  top: 40px;
   left: 50px;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltips:hover .tooltiptext {
   visibility: visible;
-}
-
-.link__panel {
-  transform: rotate(0);
-  /* to scope stretched-link */
-  align-items: center;
 }
 
 .topic__heading {
@@ -62,6 +57,8 @@
 }
 
 .link__panel {
+  transform: rotate(0);
+  /* to scope stretched-link */
   background-color: white;
   transition: all 0.7s;
 }
