@@ -12,14 +12,15 @@
   background-color: white;
   color: black;
   text-align: start;
+  width: 810px;
   padding: 5px 0;
   border-radius: 6px;
-  background-color: brown;
+  background-color: white;
 
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
-  top: 35px;
+  top: 25px;
   left: 50px;
 }
 
@@ -28,7 +29,67 @@
   visibility: visible;
 }
 
-.link-panel {
+.link__panel {
   transform: rotate(0);
   /* to scope stretched-link */
+  align-items: center;
+}
+
+.topic__heading {
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+}
+
+.platform__link:link,
+.platform__link:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: all 0.1s;
+}
+
+.platform__link:hover,
+.platform__link:active {
+  color: rgb(67, 61, 148);
+}
+
+.link__panel {
+  background-color: white;
+  transition: all 0.7s;
+}
+
+.link__panel:hover {
+  background-color: skyblue;
+}
+
+.first-column {
+  flex-basis: 25%;
+}
+
+.text__link-underline:link,
+.text__link-underline:visited {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.1s;
+  display: inline-block;
+  margin-bottom: 0.4rem;
+}
+
+.text__link-underline:hover,
+.text__link-underline:active {
+  text-decoration: underline;
+}
+
+.link__list {
+  list-style: none;
+  padding-left: 0;
 }
