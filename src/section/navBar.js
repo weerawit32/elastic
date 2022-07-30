@@ -60,12 +60,12 @@ function NavScrollExample() {
             </li>
             <li>
               <a href="/" className="nav-link">
-                <UsecasesTrigger />
+                Customers
               </a>
             </li>
             <li>
               <a href="/" className="nav-link">
-                Pricing
+                Learn
               </a>
             </li>
             <li>

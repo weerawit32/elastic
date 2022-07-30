@@ -12,7 +12,7 @@
   background-color: white;
   color: black;
   text-align: start;
-  width: 710px;
+  width: 810px;
   padding: 5px 0;
   border-radius: 6px;
   background-color: white;
@@ -21,12 +21,12 @@
   position: absolute;
   z-index: 1;
   top: 25px;
-  left: -15px;
+  left: 50px;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltips:hover .tooltiptext {
-  visibility: hidden;
+  visibility: visible;
 }
 
 .link__panel {
@@ -52,7 +52,7 @@
   text-decoration: none;
   color: black;
   font-weight: 700;
-  font-size: 1rem !important;
+  font-size: 1.1rem;
   transition: all 0.1s;
 }
 
@@ -71,15 +71,7 @@
 }
 
 .first-column {
-  flex-basis: 33.33%;
-}
-
-.second-column {
-  flex-basis: 33.33%;
-}
-
-.third-column {
-  flex-basis: 33.33%;
+  flex-basis: 25%;
 }
 
 .text__link-underline:link,

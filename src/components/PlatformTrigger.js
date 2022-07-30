@@ -101,10 +101,7 @@ const PlatformTrigger = () => {
               </p>
             </div>
           </div>
-          <a
-            href="/"
-            className="text__link-underline text-muted fs-6 fw-bold align-center"
-          >
+          <a href="/" className="text-muted fs-6 fw-bold">
             View platform overview
           </a>
         </div>
