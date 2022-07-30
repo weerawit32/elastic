@@ -8,6 +8,7 @@ import elasticLogo from "../logo/elastic-logo.svg";
 // import LearnTrigger from "../components/LearnTrigger";
 import CompanyTrigger from "../components/CompanyTrigger";
 import PlatformTrigger from "../components/PlatformTrigger";
+import UsecasesTrigger from "../components/UsecasesTrigger";
 // import "../css/navbar.style.css";
 import "../css/navbars.style.css";
 import Hamburger from "hamburger-react";
@@ -58,12 +59,12 @@ function NavScrollExample() {
             </li>
             <li>
               <a href="/" className="nav-link">
-                Customers
+                <UsecasesTrigger />
               </a>
             </li>
             <li>
               <a href="/" className="nav-link">
-                Learn
+                Pricing
               </a>
             </li>
             <li>
