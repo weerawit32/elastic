@@ -40,8 +40,20 @@ const PlatformTrigger = () => {
                 className="text__link-underline d-block p-3 ps-0 border-bottom stretched-link "
               >
                 <span className="me-1 text">Learn more</span>
-                <img src={rightArrow} width="20" height="15"></img>
+                {/* <img src={rightArrow} width="20" height="15"></img> */}
                 {/* <span className="arrow">&rarr;</span> */}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
               </a>
             </div>
             <h6 className="topic__heading text-muted">ADDITIONAL RESOURCES</h6>
