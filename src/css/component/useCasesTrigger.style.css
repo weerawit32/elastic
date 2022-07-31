@@ -1,13 +1,23 @@
-.tooltips {
+.tooltips-usecase {
   position: relative;
   display: inline-block;
   color: black;
+  font-weight: 700;
   opacity: 1;
   padding: 1rem 1.5rem;
+  font-size: 1rem;
+}
+
+.tooltips-usecase span {
+  cursor: pointer;
+}
+
+.tooltips-usecase:hover {
+  color: rgb(67, 61, 148);
 }
 
 /* Tooltip text */
-.tooltips .tooltiptext {
+.tooltips-usecase .tooltiptext-usecase {
   visibility: hidden;
 
   background-color: white;
@@ -25,7 +35,7 @@
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltips:hover .tooltiptext {
+.tooltips-usecase:hover .tooltiptext-usecase {
   visibility: visible;
 }
 
@@ -52,12 +62,24 @@
   font-size: 1rem;
 }
 
+.first-column {
+  flex-basis: 33.33%;
+}
+
+.second-column {
+  flex-basis: 33.33%;
+}
+
+.third-column {
+  flex-basis: 33.33%;
+}
+
 .platform__link:link,
 .platform__link:visited {
   text-decoration: none;
   color: black;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1rem !important;
   transition: all 0.1s;
 }
 

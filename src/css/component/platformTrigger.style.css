@@ -2,7 +2,18 @@
   position: relative;
   display: inline-block;
   color: black;
+  font-weight: 700;
   opacity: 1;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+}
+
+.tooltips span {
+  cursor: pointer;
+}
+
+.tooltips:hover {
+  color: rgb(67, 61, 148);
 }
 
 /* Tooltip text */
@@ -51,7 +62,7 @@
   text-decoration: none;
   color: black;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.1rem !important;
   transition: all 0.1s;
 }
 

@@ -2,9 +2,9 @@ import "../css/component/useCasesTrigger.style.css";
 
 const UsecasesTrigger = () => {
   return (
-    <div className="tooltips">
-      Use cases
-      <div className=" tooltiptext d-flex p-4 pt-2 shadow">
+    <div className="tooltips-usecase">
+      <span>Use cases</span>
+      <div className=" tooltiptext-usecase d-flex p-4 pt-2 shadow">
         <div className="px-4 border-end first-column">
           <h6 className="topic__heading text-muted">By topic</h6>
           <div className="link__panel p-1 pe-5  ">

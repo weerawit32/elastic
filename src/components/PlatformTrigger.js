@@ -6,7 +6,7 @@ import securityLogo from "../logo/logo-security-32-color.svg";
 const PlatformTrigger = () => {
   return (
     <div className="tooltips">
-      Platform
+      <span>Platform</span>
       <div className=" tooltiptext d-flex  p-4 pt-2 shadow">
         <div className="pe-4 first-column">
           <h6 className="topic__heading text-muted ">Elastic Clound</h6>

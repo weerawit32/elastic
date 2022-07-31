@@ -58,12 +58,10 @@ function NavScrollExample() {
             <li>
               <PlatformTrigger />
             </li>
-            <li>
-              <UsecasesTrigger />
-            </li>
+            <li>{/* <UsecasesTrigger /> */}</li>
             <li>
               <a href="/" className="nav-link">
-                Learn
+                Pricing
               </a>
             </li>
             <li>
