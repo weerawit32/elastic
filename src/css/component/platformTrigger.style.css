@@ -18,7 +18,7 @@
 
 /* Tooltip text */
 .tooltips .tooltiptext {
-  visibility: hidden;
+  visibility: visible;
 
   background-color: white;
   color: black;
@@ -97,6 +97,11 @@
 .text__link-underline:hover,
 .text__link-underline:active {
   text-decoration: underline;
+}
+
+.text__link-underline:link .arrow,
+.text__link-underline:visited .arrow {
+  font-size: 1rem;
 }
 
 .link__list {

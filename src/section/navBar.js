@@ -7,6 +7,7 @@ import elasticLogo from "../logo/elastic-logo.svg";
 // import ProductTrigger2 from "../components/ProductTrigger2";
 // import LearnTrigger from "../components/LearnTrigger";
 import CompanyTrigger from "../components/CompanyTrigger";
+import TestPlatform from "../components/testPlatform";
 import PlatformTrigger from "../components/PlatformTrigger";
 import UsecasesTrigger from "../components/UsecasesTrigger";
 // import CustomerTrigger from "../components/CustomerTrigger";
@@ -57,6 +58,7 @@ function NavScrollExample() {
           <ul className="nav__list nav__list-left  ">
             <li>
               <PlatformTrigger />
+              {/* <TestPlatform /> */}
             </li>
             <li>{/* <UsecasesTrigger /> */}</li>
             <li>

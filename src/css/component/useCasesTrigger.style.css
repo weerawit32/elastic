@@ -18,7 +18,7 @@
 
 /* Tooltip text */
 .tooltips-usecase .tooltiptext-usecase {
-  visibility: hidden;
+  visibility: visible;
 
   background-color: white;
   color: black;
