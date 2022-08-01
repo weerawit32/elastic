@@ -54,7 +54,7 @@ function NavScrollExample() {
         <div>
           <img src={elasticLogo} alt="elastic-l" width="80" height="70"></img>
         </div>
-        <div className="d-md-block d-none">
+        <div className="d-xl-block d-none">
           <ul className="nav__list nav__list-left  ">
             <li>
               <PlatformTrigger />
@@ -80,21 +80,16 @@ function NavScrollExample() {
           </ul>
         </div>
 
-        <div className="d-md-block d-none ms-md-auto">
+        <div className="d-xl-block d-none ms-md-auto">
           <ul className="nav__list nav__list-right">
             <li>
-              <a href="/" className="nav-link">
+              <a href="/" className="nav-link text-muted">
                 Contact
               </a>
             </li>
-            <li className="d-lg-block d-none d-sm-none">
-              <Button
-                className="nav__btn nav__btn-login px-5 py-2 "
-                variant="outline-primary"
-              >
-                <span className="fw-bold">Login</span>
-              </Button>
-            </li>
+            <a href="/" className="nav-link text-muted">
+              Login
+            </a>
             <li>
               <a
                 href="/"
@@ -105,7 +100,7 @@ function NavScrollExample() {
             </li>
             <li>
               <Button
-                className="nav__btn nav__btn-try px-5 py-2"
+                className="nav__btn nav__btn-try px-4 py-2"
                 variant="primary"
               >
                 <span className="fw-bold">Try Free</span>
@@ -113,14 +108,37 @@ function NavScrollExample() {
             </li>{" "}
             <li>
               <a href="/" className="link-primary">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  class="bi bi-search" viewBox="0 0 16 16">
-                <path fill="currentColor" d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-              </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  />
+                </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div className="d-sm-block d-block d-lg-none ms-sm-auto ms-auto me-4">
+        <div className="d-sm-block d-block d-xl-none ms-sm-auto ms-auto me-4 d-sm-flex d-flex">
+          <a href="/" className="link-primary align-self-center me-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              class="bi bi-search "
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill="currentColor"
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              />
+            </svg>
+          </a>
           <Hamburger toggled={isOpen} toggle={testClose} />
         </div>
       </div>

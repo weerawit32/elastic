@@ -3,6 +3,8 @@ import { useState } from "react";
 import enterpriseLogo from "../logo/logo-enterprise-search-32-color.svg";
 import elasticObservabilityLogo from "../logo/logo-observability-32-color.svg";
 import securityLogo from "../logo/logo-security-32-color.svg";
+import elasticLogo from "../logo/logo-cloud-32-color.svg";
+import stackLogo from "../logo/logo-stack-32-color.svg";
 import priceIcon from "../logo/icon-price-16-blue.svg";
 import downloadIcon from "../logo/icon-download-16-blue.svg";
 import integratingIcon from "../logo/icon-integration-16-blue.svg";
@@ -10,25 +12,29 @@ import integratingIcon from "../logo/icon-integration-16-blue.svg";
 const PlatformTrigger = () => {
   const [isOpen, setOpen] = useState(true);
 
-  // const onMouseEnter = () => {
-  //   setOpen(true);
-  // };
+  const onMouseEnter = () => {
+    setOpen(true);
+  };
 
-  // const onMouseLeave = () => {
-  //   setOpen(false);
-  // };
+  const onMouseLeave = () => {
+    setOpen(false);
+  };
 
   return (
     <div
       className="tooltips"
-      // onMouseOver={() => onMouseEnter()}
-      // onMouseLeave={() => onMouseLeave()}
+      onMouseOver={() => onMouseEnter()}
+      onMouseLeave={() => onMouseLeave()}
     >
       <span>Platform</span>
       {isOpen && (
         <div className=" tooltiptext d-flex  p-4 pt-2 shadow">
           <div className="pe-4 first-column">
-            <h6 className="topic__heading text-muted ">Elastic Clound</h6>
+            <div className="d-flex">
+              <img src={elasticLogo} width="24" className="me-3"></img>
+              <h6 className="topic__heading text-muted ">Elastic Clound</h6>
+            </div>
+
             <div className="link__panel">
               <h6 className="topic__heading py-1">
                 Maximize value and optimize your experience
@@ -68,13 +74,13 @@ const PlatformTrigger = () => {
               </li>
               <li>
                 <a href="/" className="text__link-underline mb-3">
-                <img src={downloadIcon} width="13" className="me-2"></img>
+                  <img src={downloadIcon} width="13" className="me-2"></img>
                   Free trial and downloads
                 </a>
               </li>
               <li>
                 <a href="/" className="text__link-underline">
-                <img src={integratingIcon} width="13" className="me-2"></img>
+                  <img src={integratingIcon} width="13" className="me-2"></img>
                   View all integrations
                 </a>
               </li>
@@ -116,7 +122,7 @@ const PlatformTrigger = () => {
               </div>
             </div>
             <div className="link__panel d-flex p-1 pe-5 postion-relative  ">
-              <img src={elasticObservabilityLogo} width="24"></img>
+              <img src={elasticLogo} width="24"></img>
               <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
                   Elastic Clound
@@ -127,7 +133,7 @@ const PlatformTrigger = () => {
               </div>
             </div>
             <div className="link__panel d-flex p-1 pe-5 postion-relative  ">
-              <img src={elasticObservabilityLogo} width="24"></img>
+              <img src={stackLogo} width="24"></img>
               <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
                   Elastic (ELK) Stack
