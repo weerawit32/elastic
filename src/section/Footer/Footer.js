@@ -13,6 +13,7 @@ import Badge from "react-bootstrap/Badge";
 import elasticLogoReverse from "../../logo/logo-elastic-vertical-reverse (1).svg";
 
 import Subscribe from "../../components/Subscribe";
+import SocialLogo from "../../components/SocialLogo";
 
 import "./Footer.style.css";
 
@@ -26,40 +27,9 @@ const Footer = () => {
               <Subscribe />
             </div>
             <div className="d-sm-none d-none d-md-block d-lg-none ms-auto">
-              <span className="me-5">Follow us</span>
+              <span className="me-4">Follow us</span>
               <div className="d-flex mt-4">
-                <img
-                  src={twitterLogo}
-                  className="me-3"
-                  fill="white"
-                  alt="elastic-l"
-                  width="30"
-                  height="30"
-                ></img>
-
-                <img
-                  src={facebookLogo}
-                  className="me-3"
-                  alt="elastic-l"
-                  width="30"
-                  height="30"
-                ></img>
-
-                <img
-                  src={youtubeLogo}
-                  className="me-3"
-                  alt="elastic-l"
-                  width="30"
-                  height="30"
-                ></img>
-
-                <img
-                  src={linkedLogo}
-                  className=""
-                  alt="elastic-l"
-                  width="30"
-                  height="30"
-                ></img>
+                <SocialLogo/>
               </div>
             </div>
           </div>
@@ -213,40 +183,9 @@ const Footer = () => {
             </ul>
           </Col>
           <div className="d-sm-block d-block d-md-none text-white text-start">
-            <span className="me-5">Follow us</span>
+            <span className="me-4">Follow us</span>
             <div className="d-flex mt-4">
-              <img
-                src={twitterLogo}
-                className="me-3"
-                fill="white"
-                alt="elastic-l"
-                width="30"
-                height="30"
-              ></img>
-
-              <img
-                src={facebookLogo}
-                className="me-3"
-                alt="elastic-l"
-                width="30"
-                height="30"
-              ></img>
-
-              <img
-                src={youtubeLogo}
-                className="me-3"
-                alt="elastic-l"
-                width="30"
-                height="30"
-              ></img>
-
-              <img
-                src={linkedLogo}
-                className=""
-                alt="elastic-l"
-                width="30"
-                height="30"
-              ></img>
+              <SocialLogo/>
             </div>
           </div>
 
@@ -256,42 +195,9 @@ const Footer = () => {
             className="d-none d-sm-none d-lg-block text-white text-start ms-auto"
           >
             <Subscribe />
-
-            <div className="d-flex">
-              <span className="me-5">Follow us</span>
-
-              <img
-                src={twitterLogo}
-                className="me-5"
-                fill="white"
-                alt="elastic-l"
-                width="30"
-                height="30"
-              ></img>
-
-              <img
-                src={facebookLogo}
-                className="me-5"
-                alt="elastic-l"
-                width="30"
-                height="30"
-              ></img>
-
-              <img
-                src={youtubeLogo}
-                className="me-5"
-                alt="elastic-l"
-                width="30"
-                height="30"
-              ></img>
-
-              <img
-                src={linkedLogo}
-                className="me-5"
-                alt="elastic-l"
-                width="30"
-                height="30"
-              ></img>
+            <div className="d-flex align-item-center ">
+              <span className="me-4 align-self-center">Follow us</span>
+              <SocialLogo/>  
             </div>
           </Col>
         </Row>
