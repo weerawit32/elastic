@@ -3,7 +3,9 @@ import { useState } from "react";
 import enterpriseLogo from "../logo/logo-enterprise-search-32-color.svg";
 import elasticObservabilityLogo from "../logo/logo-observability-32-color.svg";
 import securityLogo from "../logo/logo-security-32-color.svg";
-import rightArrow from "../logo/right-arrow.svg";
+import priceIcon from "../logo/icon-price-16-blue.svg";
+import downloadIcon from "../logo/icon-download-16-blue.svg";
+import integratingIcon from "../logo/icon-integration-16-blue.svg";
 
 const PlatformTrigger = () => {
   const [isOpen, setOpen] = useState(true);
@@ -44,8 +46,8 @@ const PlatformTrigger = () => {
                 {/* <span className="arrow">&rarr;</span> */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="30"
+                  height="22"
                   class="bi bi-arrow-right"
                   viewBox="0 0 16 16"
                 >
@@ -59,18 +61,20 @@ const PlatformTrigger = () => {
             <h6 className="topic__heading text-muted">ADDITIONAL RESOURCES</h6>
             <ul className="link__list">
               <li>
-                <a href="/" className="text__link-underline ">
-                  <img src={enterpriseLogo} width="15" className="me-2"></img>
+                <a href="/" className="text__link-underline mb-3  ">
+                  <img src={priceIcon} width="13" className="me-2"></img>
                   View pricing
                 </a>
               </li>
               <li>
-                <a href="/" className="text__link-underline">
+                <a href="/" className="text__link-underline mb-3">
+                <img src={downloadIcon} width="13" className="me-2"></img>
                   Free trial and downloads
                 </a>
               </li>
               <li>
                 <a href="/" className="text__link-underline">
+                <img src={integratingIcon} width="13" className="me-2"></img>
                   View all integrations
                 </a>
               </li>
@@ -133,7 +137,7 @@ const PlatformTrigger = () => {
                 </p>
               </div>
             </div>
-            <a href="/" className="text-muted fs-6 fw-bold">
+            <a href="/" className="text-muted text__link-underline">
               View platform overview
             </a>
           </div>

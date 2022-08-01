@@ -46,7 +46,7 @@
 }
 
 .topic__heading {
-  font-weight: 700;
+  font-weight: 600 !important;
   font-size: 1.1rem;
   text-transform: uppercase;
   margin: 1rem 0;
@@ -54,7 +54,8 @@
 }
 
 .description {
-  font-size: 1rem;
+  font-size: 0.8rem !important;
+  font-weight: normal;
 }
 
 .platform__link:link,
@@ -99,9 +100,14 @@
   text-decoration: underline;
 }
 
-.text__link-underline:link .arrow,
-.text__link-underline:visited .arrow {
-  font-size: 1rem;
+.text__link-underline:link svg,
+.text__link-underline:visited svg {
+  transition: all 0.1s;
+}
+
+.text__link-underline:hover svg,
+.text__link-underline:active svg {
+  transform: translateX(20%);
 }
 
 .link__list {
