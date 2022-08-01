@@ -1,27 +1,23 @@
 video {
-    width: 100%;
-    max-height: 100%;
+  width: 100%;
+  max-height: 100%;
 }
 
-.arrow__link:link,
-.arrow__link:visited {
-  text-decoration: none;
-  color: blue;
-  font-weight: 400;
-  font-size: 4rem;
-  transition: all 0.1s;
-  display: inline-block;
-  margin-bottom: 0.4rem;
-  transition: all 0.3s;
+.cards .card__content {
+  transition: all 0.2s;
 }
 
-.arrow__link:hover,
-.arrow__link:active {
-  color: blue;
-  text-decoration: none;
-  transform: translateX(10px);
+.cards:hover .card__content {
+  transform: translateY(-5%);
 }
 
+.cards .card__content .card__header {
+  transition: all 0.2s;
+}
+
+.cards:hover .card__content .card__header {
+  color: rgb(67, 61, 148);
+}
 /* .card:link .card__content,
 .card:visited .card__content {
     transition: all 0.4s;

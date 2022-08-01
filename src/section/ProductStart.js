@@ -7,16 +7,16 @@ import plusIcon from "../logo/plus-icon.svg";
 const ProductStart = () => {
   return (
     <section className="bg-light py-5">
-      <Container>
+      <div className=" container-md">
         <div className="my-4">
-          <h1>The products that started it all</h1>
+          <h1 className="fw-bold">The products that started it all</h1>
           <p>
             All of our solutions are powered by the speed, scale, and
             flexibility of the Elastic (ELK) Stack.
           </p>
         </div>
         <Row className="justify-content-center position-relative">
-          <Col lg="9" md="11" className=" bg-white  border  p-4">
+          <Col lg="9" sm="11" className=" bg-white  border shadow  p-4">
             <div className="d-md-flex d-sm-flex-column d-flex-column align-items-center">
               <div className="d-flex d- pe-lg-5 pe-md-3">
                 <img
@@ -56,7 +56,7 @@ const ProductStart = () => {
               </div>
             </div>
             <span className="d-inline-block my-4">
-            <a
+              <a
                 href="/"
                 className="text__link-underline  p-3 ps-0  stretched-link "
               >
@@ -77,7 +77,7 @@ const ProductStart = () => {
             </span>
           </Col>
         </Row>
-      </Container>
+      </div>
     </section>
   );
 };

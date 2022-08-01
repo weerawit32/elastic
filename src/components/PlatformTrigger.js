@@ -28,8 +28,8 @@ const PlatformTrigger = () => {
     >
       <span>Platform</span>
       {isOpen && (
-        <div className=" tooltiptext d-flex  p-4 pt-2 shadow">
-          <div className="pe-4 first-column">
+        <div className=" tooltiptext d-flex  shadow">
+          <div className="p-4 pt-2 first-column bg-light">
             <div className="d-flex">
               <img src={elasticLogo} width="24" className="me-3"></img>
               <h6 className="topic__heading text-muted ">Elastic Clound</h6>
@@ -48,8 +48,7 @@ const PlatformTrigger = () => {
                 className="text__link-underline d-block p-3 ps-0 border-bottom stretched-link "
               >
                 <span className="me-1 text">Learn more</span>
-                {/* <img src={rightArrow} width="20" height="15"></img> */}
-                {/* <span className="arrow">&rarr;</span> */}
+
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -86,7 +85,7 @@ const PlatformTrigger = () => {
               </li>
             </ul>
           </div>
-          <div className="px-4 border-end">
+          <div className="p-4 pt-2 border-end">
             <h6 className="topic__heading text-muted">Use elastic for</h6>
             <div className="link__panel d-flex p-1 pe-5">
               <img src={enterpriseLogo} width="24"></img>
@@ -147,7 +146,7 @@ const PlatformTrigger = () => {
               View platform overview
             </a>
           </div>
-          <div className="ps-4">
+          <div className="p-4 pt-2">
             <h6 className="topic__heading text-muted">what's new</h6>
             <div className="link__panel p-1 pe-5 postion-relative  ">
               <div className="">

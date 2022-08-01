@@ -17,40 +17,43 @@ const Product = () => {
       <div className="container-lg">
         <Row className="align-items-center justify-content-center py-5">
           <Col lg="7" md="4" className="product_title">
-            <h1>Search.Observe.Protect</h1>
+            <h1 className="fw-bold">Search.Observe.Protect</h1>
             <p>
               We offer solutions for enterprise search, observability, and
               security that are built on a single, flexible technology stack
               that can be deployed anywhere.
             </p>
-            <a
-                href="/"
-                className="text__link-underline p-3 ps-0"
+            <a href="/" className="text__link-underline p-3 ps-0">
+              <span className="me-1 text">View all products</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="22"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
               >
-                <span className="me-1 text">View all products</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="22"
-                  class="bi bi-arrow-right"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                  />
-                </svg>
-              </a>
+                <path
+                  fill="currentColor"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </a>
           </Col>
         </Row>
         <Row className="align-items-center py-5">
           <Col sm="5" className="product_content text-start p-4">
             <div className="product_logo_container d-flex align-items-center">
-              <img src={elasticCloundLogo} alt="elasti clound logo"></img>
-              <span className="fs-3 ms-2">Elastic Clound</span>
+              <img
+                src={elasticCloundLogo}
+                alt="elasti clound logo"
+                className="img-fluid"
+              ></img>
+              <span className="fs-3 ms-2 fw-bold">Elastic Clound</span>
             </div>
             <div className="product_title">
-              <h2>Run on Elastic Cloud, your way</h2>
+              <h2 className="fw-bold  display-4">
+                Run on Elastic Cloud, your way
+              </h2>
             </div>
             <div className="product_body">
               <p>
@@ -60,10 +63,7 @@ const Product = () => {
               </p>
             </div>
             <div className="product_footer ">
-            <a
-                href="/"
-                className="text__link-underline  p-3 ps-0 "
-              >
+              <a href="/" className="text__link-underline  p-3 ps-0 ">
                 <span className="me-1 text">Learn more</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -79,29 +79,26 @@ const Product = () => {
                 </svg>
               </a>
               <p>
-              <a
-                href="/"
-                className="text__link-underline text-decoration-underline fw-bold fs-6 "
-              >
-                <span>Download our solutions</span>
-              </a>  
-                
+                <a
+                  href="/"
+                  className="text__link-underline text-decoration-underline fw-bold fs-6 "
+                >
+                  <span>Download our solutions</span>
+                </a>
                 &nbsp;or try one of our orchestration products:
-              <a
-                href="/"
-                className="text__link-underline text-decoration-underline fw-bold fs-6 "
-              >
-                <span>Elastic Cloud Enterprise{" "}</span>
-              </a>
-                
-              &nbsp;and&nbsp;
-              <a
-                href="/"
-                className="text__link-underline text-decoration-underline fw-bold fs-6 "
-              >
-                <span>{" "}Elastic Cloud on Kubernetes.</span>
-              </a>
-                
+                <a
+                  href="/"
+                  className="text__link-underline text-decoration-underline fw-bold fs-6 "
+                >
+                  <span>Elastic Cloud Enterprise </span>
+                </a>
+                &nbsp;and&nbsp;
+                <a
+                  href="/"
+                  className="text__link-underline text-decoration-underline fw-bold fs-6 "
+                >
+                  <span> Elastic Cloud on Kubernetes.</span>
+                </a>
               </p>
             </div>
           </Col>
@@ -131,10 +128,7 @@ const Product = () => {
               </p>
             </div>
             <div className="product_footer ">
-            <a
-                href="/"
-                className="text__link-underline  p-3 ps-0 "
-              >
+              <a href="/" className="text__link-underline  p-3 ps-0 ">
                 <span className="me-1 text">Learn more</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -187,10 +181,7 @@ const Product = () => {
               </p>
             </div>
             <div className="product_footer ">
-            <a
-                href="/"
-                className="text__link-underline  p-3 ps-0 "
-              >
+              <a href="/" className="text__link-underline  p-3 ps-0 ">
                 <span className="me-1 text">Learn more</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -255,10 +246,7 @@ const Product = () => {
               </p>
             </div>
             <div className="product_footer ">
-            <a
-                href="/"
-                className="text__link-underline  p-3 ps-0 "
-              >
+              <a href="/" className="text__link-underline  p-3 ps-0 ">
                 <span className="me-1 text">Learn more</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

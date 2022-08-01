@@ -8,11 +8,11 @@ import uberLogo from "../logo/logohome-uber.svg";
 const AllCustomer = () => {
   return (
     <section className="bg-light py-5">
-      <Container>
+      <div className="container-lg">
         <div className="row justify-content-center">
-          <div className="col-8 text-content mt-5 ">
+          <div className="col-md-8  col-sm-12 text-content mt-5 ">
             <h1 className="fw-bold mb-4">Our customers bring search to life</h1>
-            <p className="mb-5">
+            <p className="mb-5 col-6 mx-auto">
               From startups to the global 2000, Elastic powers search solutions
               for thousands of companies worldwide to find documents, monitor
               infrastructure, protect against security threats, and more.
@@ -55,23 +55,23 @@ const AllCustomer = () => {
           </a>
         </div>
         <div>
-        <a href="/" className="text__link-underline  p-3 ps-0  ">
+          <a href="/" className="text__link-underline  p-3 ps-0  ">
             <span className="me-1 text">View all customers</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="22"
-                  class="bi bi-arrow-right"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                  />
-                </svg>    
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="22"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill="currentColor"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+              />
+            </svg>
           </a>
         </div>
-      </Container>
+      </div>
     </section>
   );
 };
