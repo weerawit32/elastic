@@ -26,13 +26,15 @@ const Subscribe = () => {
       </Row>
       <p className=" subscibe-text mb-5  me-2">
         By submitting you agree to{" "}
-        <span className="text-decoration-underline">
+        <a href="/" className ="link-light"><span className="text-decoration-underline">
           Elastic Terms of Service.
-        </span>{" "}
+        </span></a>
+        {" "}
         Your personal data will be processed in accordance with{" "}
-        <span className="text-decoration-underline">
+        <a href="/" className ="link-light"><span className="text-decoration-underline">
           Elastic's Privacy Statement.
-        </span>
+        </span></a>
+        
       </p>
     </div>
   );

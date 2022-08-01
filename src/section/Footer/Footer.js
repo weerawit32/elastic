@@ -1,14 +1,14 @@
-import Button from "react-bootstrap/esm/Button";
-import Container from "react-bootstrap/esm/Container";
+// import Button from "react-bootstrap/esm/Button";
+// import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
-import InputGroup from "react-bootstrap/InputGroup";
-import elasticLogo from "../../logo/elastic-logo.svg";
-import twitterLogo from "../../logo/twiiter-icon.svg";
-import facebookLogo from "../../logo/facebook-icon.svg";
-import youtubeLogo from "../../logo/youtube-icon.svg";
-import linkedLogo from "../../logo/linked-icon.svg";
+// import InputGroup from "react-bootstrap/InputGroup";
+// import elasticLogo from "../../logo/elastic-logo.svg";
+// import twitterLogo from "../../logo/twiiter-icon.svg";
+// import facebookLogo from "../../logo/facebook-icon.svg";
+// import youtubeLogo from "../../logo/youtube-icon.svg";
+// import linkedLogo from "../../logo/linked-icon.svg";
 import Badge from "react-bootstrap/Badge";
 import elasticLogoReverse from "../../logo/logo-elastic-vertical-reverse (1).svg";
 
