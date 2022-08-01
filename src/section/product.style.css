@@ -5,7 +5,6 @@ video {
 
 .text__arrow-link {
     display: flex;
-    display: block;
 }
 
 .text__arrow-link span {

@@ -23,9 +23,24 @@ const Product = () => {
               security that are built on a single, flexible technology stack
               that can be deployed anywhere.
             </p>
-            <a href="/" className="text__arrow-link  ">
-              View all Products<span className="arrow ms-2 ">&rarr;</span>
-            </a>
+            <a
+                href="/"
+                className="text__link-underline p-3 ps-0"
+              >
+                <span className="me-1 text">View all products</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="22"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </a>
           </Col>
         </Row>
         <Row className="align-items-center py-5">
@@ -45,26 +60,48 @@ const Product = () => {
               </p>
             </div>
             <div className="product_footer ">
-              <a href="/">
-                <p className="text-primary">Learn more</p>
+            <a
+                href="/"
+                className="text__link-underline  p-3 ps-0 "
+              >
+                <span className="me-1 text">Learn more</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="22"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
               </a>
               <p>
-                <a href="/">
-                  <span className="text-primary">Download our solutions </span>
-                </a>
-                or try one of our orchestration products:
-                <a href="/">
-                  <span className="text-primary">
-                    Elastic Cloud Enterprise{" "}
-                  </span>
-                </a>
-                and
-                <a href="/">
-                  <span className="text-primary">
-                    {"  "}
-                    Elastic Cloud on Kubernetes.
-                  </span>
-                </a>
+              <a
+                href="/"
+                className="text__link-underline text-decoration-underline fw-bold fs-6 "
+              >
+                <span>Download our solutions</span>
+              </a>  
+                
+                &nbsp;or try one of our orchestration products:
+              <a
+                href="/"
+                className="text__link-underline text-decoration-underline fw-bold fs-6 "
+              >
+                <span>Elastic Cloud Enterprise{" "}</span>
+              </a>
+                
+              &nbsp;and&nbsp;
+              <a
+                href="/"
+                className="text__link-underline text-decoration-underline fw-bold fs-6 "
+              >
+                <span>{" "}Elastic Cloud on Kubernetes.</span>
+              </a>
+                
               </p>
             </div>
           </Col>
@@ -94,8 +131,23 @@ const Product = () => {
               </p>
             </div>
             <div className="product_footer ">
-              <a href="/">
-                <p className="text-primary">Learn more</p>
+            <a
+                href="/"
+                className="text__link-underline  p-3 ps-0 "
+              >
+                <span className="me-1 text">Learn more</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="22"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
               </a>
               <div sm="5" className="d-sm-none d-block">
                 <video width="600" height="400" autoPlay muted>
@@ -135,8 +187,23 @@ const Product = () => {
               </p>
             </div>
             <div className="product_footer ">
-              <a href="/">
-                <p className="text-primary">Learn more</p>
+            <a
+                href="/"
+                className="text__link-underline  p-3 ps-0 "
+              >
+                <span className="me-1 text">Learn more</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="22"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
               </a>
               <div lg="5" className="d-sm-none d-block">
                 <video width="600" height="400" autoPlay muted>
@@ -188,8 +255,23 @@ const Product = () => {
               </p>
             </div>
             <div className="product_footer ">
-              <a href="/">
-                <p className="text-primary">Learn more</p>
+            <a
+                href="/"
+                className="text__link-underline  p-3 ps-0 "
+              >
+                <span className="me-1 text">Learn more</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="22"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
               </a>
               <div lg="5" className="d-sm-none d-block">
                 <video width="600" height="400" autoPlay muted>
@@ -204,7 +286,7 @@ const Product = () => {
                   threats.
                 </p>
                 <div>
-                  <img src={barclaysLogo} alt="shopify logo"></img>
+                  <img src={barclaysLogo} alt="barclays logo"></img>
                   <div class="vr mx-1"></div>
                   <span>Documentation Lead</span>
                 </div>

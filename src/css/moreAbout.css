@@ -2,3 +2,11 @@
   background-image: url("../img/demo-background.jpg");
   background-size: cover;
 }
+
+.card-content:link .card-body > h2 {
+  transition: all 0.2s;
+}
+
+.card-content:hover .card-body > h2 {
+  transform: translateY(20%);
+}

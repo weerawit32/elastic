@@ -29,9 +29,9 @@ const SearchObserve = () => {
         </div>
       </Container>
       <Container className="mt-5">
-        <div className="row p-4 border rounded-4">
+        <div className="row  border shadow rounded-4">
           <div
-            className=" col-md-4 text-start position-relative d-flex flex-column justify-content-between p-md-0 py-sm-4 py-4
+            className=" col-md-4 text-start position-relative d-flex flex-column justify-content-between  py-4
             border-bottom-md-0 border-sm-bottom border-bottom"
           >
             <div>
@@ -45,13 +45,28 @@ const SearchObserve = () => {
                 significant vendors.
               </p>
             </div>
-            <a href="/" className="arrow__link d-inline-block stretched-link ">
-              &rarr;
-            </a>
+            <a
+                href="/"
+                className="text__link-underline link-primary stretched-link  p-3 ps-0 "
+              >
+              
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="22"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </a>
             
           </div>
           <div
-            className=" col-md-4 text-start position-relative d-flex flex-column justify-content-between p-md-0 py-sm-4 py-4
+            className=" col-md-4 text-start position-relative d-flex flex-column justify-content-between  py-4
             border-bottom-md-0 border-sm-bottom border-bottom"
           >
             <div className="card__content">
@@ -62,11 +77,26 @@ const SearchObserve = () => {
                 your data in Elasticsearch
               </p>
             </div>
-            <a href="/" className="arrow__link d-inline-block stretched-link ">
-              &rarr;
-            </a>
+            <a
+                href="/"
+                className="text__link-underline link-primary stretched-link  p-3 ps-0 "
+              >
+              
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="22"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </a>
           </div>
-          <div className=" col-md-4 text-start position-relative d-flex flex-column justify-content-between p-md-0 py-sm-4 py-4 mt-md-0 mt-sm-5 mt-5">
+          <div className=" col-md-4 text-start position-relative d-flex flex-column justify-content-between  py-4 mt-md-0 mt-sm-5 mt-5">
             <div className="card__content">
               <h5 className="text-muted">What's new</h5>
               <h3>Ingestion without congestion</h3>
@@ -76,9 +106,24 @@ const SearchObserve = () => {
                 insights for Saleforce and Hadoop.
               </p>
             </div>
-            <a href="/" className="arrow__link d-inline-block stretched-link ">
-              &rarr;
-            </a>
+            <a
+                href="/"
+                className="text__link-underline link-primary stretched-link  p-3 ps-0 "
+              >
+              
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="22"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </a>
           </div>
         </div>
         <Container>
@@ -92,18 +137,20 @@ const SearchObserve = () => {
                 organizations to search, solve, and succeed in a cloud-first
                 world.
               </p>
-              <a href="/" className="">
-                <span className="text-primary me-2">Learn more</span>
+              <a
+                href="/"
+                className="text__link-underline  p-3 ps-0"
+              >
+                <span className="me-1 text">Learn more</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
-                  height="30"
-                  fill="primary"
+                  height="22"
                   class="bi bi-arrow-right"
                   viewBox="0 0 16 16"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fill="currentColor"
                     d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
                   />
                 </svg>
