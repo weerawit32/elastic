@@ -58,9 +58,7 @@
   margin-bottom: 1rem;
 }
 
-.description {
-  font-size: 1rem;
-}
+
 
 .first-column {
   flex-basis: 33.33%;
@@ -74,36 +72,5 @@
   flex-basis: 33.33%;
 }
 
-.platform__link:link,
-.platform__link:visited {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  font-size: 1rem !important;
-  transition: all 0.1s;
-}
 
-.platform__link:hover,
-.platform__link:active {
-  color: rgb(67, 61, 148);
-}
 
-.text__link-underline:link,
-.text__link-underline:visited {
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1rem;
-  transition: all 0.1s;
-  display: inline-block;
-  margin-bottom: 0.4rem;
-}
-
-.text__link-underline:hover,
-.text__link-underline:active {
-  text-decoration: underline;
-}
-
-.link__list {
-  list-style: none;
-  padding-left: 0;
-}

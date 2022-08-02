@@ -55,7 +55,7 @@
 }
 
 .description {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: normal;
 }
 
@@ -63,8 +63,8 @@
 .platform__link:visited {
   text-decoration: none;
   color: black;
-  font-weight: 700;
-  font-size: 1.1rem !important;
+  font-weight: 400;
+  font-size: 1.1rem;
   transition: all 0.1s;
 }
 
