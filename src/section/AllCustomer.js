@@ -10,9 +10,9 @@ const AllCustomer = () => {
     <section className="bg-light py-5">
       <div className="container-lg">
         <div className="row justify-content-center">
-          <div className="col-md-8  col-sm-12 text-content mt-5 ">
-            <h1 className="fw-bold mb-4">Our customers bring search to life</h1>
-            <p className="mb-5 col-6 mx-auto">
+          <div className="col-md-8  col-sm-10 text-content my-5 ">
+            <h1 className=" heading-primary">Our customers bring search to life</h1>
+            <p className="content__body  col-lg-10 col-sm-10 mx-auto">
               From startups to the global 2000, Elastic powers search solutions
               for thousands of companies worldwide to find documents, monitor
               infrastructure, protect against security threats, and more.
@@ -22,7 +22,7 @@ const AllCustomer = () => {
         <div className="customer_logo-container d-flex flex-wrap justify-content-center  mb-4">
           <a
             href="/"
-            className="customer_logo_container rounded-3 me-3 mt-1 bg-white"
+            className="customer_logo_container  rounded-3 me-3 mt-3 bg-white"
           >
             <img
               src={netflixLogo}
@@ -31,13 +31,13 @@ const AllCustomer = () => {
               height="91"
             ></img>
           </a>
-          <a href="/" className="customer_logo_container me-3 mt-1 bg-white">
+          <a href="/" className="customer_logo_container me-3 mt-3 bg-white">
             <img src={uberLogo} alt="uber-logo" width="200" height="91"></img>
           </a>
-          <a href="/" className="customer_logo_container me-3 mt-1 bg-white">
+          <a href="/" className="customer_logo_container me-3 mt-3 bg-white">
             <img src={slackLogo} alt="slack-logo" width="200" height="91"></img>
           </a>
-          <a href="/" className="customer_logo_container me-3 mt-1 bg-white">
+          <a href="/" className="customer_logo_container me-3 mt-3 bg-white">
             <img
               src={twilloLogo}
               alt="twillo-logo"
@@ -45,7 +45,7 @@ const AllCustomer = () => {
               height="91"
             ></img>
           </a>
-          <a href="/" className="customer_logo_container  mt-1 bg-white">
+          <a href="/" className="customer_logo_container  mt-3 bg-white">
             <img
               src={microsoftLogo}
               alt="microsoft-logo"
@@ -55,8 +55,8 @@ const AllCustomer = () => {
           </a>
         </div>
         <div>
-          <a href="/" className="text__link-underline  p-3 ps-0  ">
-            <span className="me-1 text">View all customers</span>
+          <a href="/" className="text__link-underline--normal  p-3 ps-0  ">
+            <span className="me-1 ">View all customers</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"

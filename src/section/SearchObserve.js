@@ -14,16 +14,13 @@ const SearchObserve = () => {
       <Container>
         <div className="row justify-content-center">
           <div className="col-xl-6 col-md-8 col-sm-6 col-7 text-centent text-center  ">
-            <h1 className="display-1 mb-5 fw-bold">
+            <h1 className="heading-special">
               Search. Observe. Protect.
             </h1>
-            <p className="col-md-7 col-sm-8 mb-5 mx-auto">
-              Accelerate results that matter, across any cloud. Easily deploy
-              anywhere, and extend the value of Elastic with cloud-native
-              features.
-            </p>
-            <Button variant="primary" className="py-3 px-4">
-              Getting started
+            <p className="col-md-8 col-sm-11 col-11 mb-5 mx-auto content__body">
+            Accelerate results that matter, across any cloud. Easily deploy in your favorite public cloud, or in multiple clouds, and extend the value of Elastic with cloud-native features.</p>
+            <Button variant="primary" className="py-3 px-5 mb-5">
+              <span className="heading-tertiary">Getting started</span>
             </Button>
           </div>
         </div>
@@ -31,14 +28,15 @@ const SearchObserve = () => {
       <div className="container-lg mt-5">
         <div className="row  border shadow rounded-4">
           <div
-            className="cards col-md-4 text-start position-relative d-flex flex-column justify-content-between ps-4  py-4
-            border-bottom-md-0 border-sm-bottom border-bottom"
+            className="cards col-md-4 text-start position-relative d-flex flex-column justify-content-between
+             
+            border-bottom-md-0 border-sm-bottom border-bottom p-5"
           >
             <div className="card__content">
-              <h5 className="card__title text-muted">Analyst Reports</h5>
-              <h3 className="card__header">
+              <h5 className="card__title text-uppercase text-muted mb-4">Analyst Reports</h5>
+              <h3 className="card__header heading-secondary">
                 The Forrester Wave Endpoint Detection and response Providers
-                20202
+                2022
               </h3>
               <p className="card__body">
                 Elastic named s Strong Performance and included among the most
@@ -47,7 +45,7 @@ const SearchObserve = () => {
             </div>
             <a
               href="/"
-              className="text__link-underline link-primary stretched-link  p-3 ps-0 "
+              className="text__link-underline--normal link-primary stretched-link  p-3 ps-0 "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -64,20 +62,20 @@ const SearchObserve = () => {
             </a>
           </div>
           <div
-            className="cards col-md-4 text-start position-relative d-flex flex-column justify-content-between  py-4
-            border-bottom-md-0 border-sm-bottom border-bottom"
+            className="cards col-md-4 text-start position-relative d-flex flex-column justify-content-between  
+            border-bottom-md-0 border-sm-bottom border-bottom p-5"
           >
             <div className="card__content">
-              <h5 className="card__title text-muted">Events & Webinars</h5>
-              <h3 className="card__header">Get started with Elasticsearch</h3>
+              <h5 className="card__title  text-uppercase text-muted mb-4">Events & Webinars</h5>
+              <h3 className="card__header heading-secondary">Get started with Elasticsearch</h3>
               <p className="card__body">
-                Watch this video to learn how to deploy, manage, and analyyze
+                Watch this video to learn how to deploy, manage, and analyze
                 your data in Elasticsearch
               </p>
             </div>
             <a
               href="/"
-              className="text__link-underline link-primary stretched-link  p-3 ps-0 "
+              className="text__link-underline--normal link-primary stretched-link  p-3 ps-0 "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -93,19 +91,17 @@ const SearchObserve = () => {
               </svg>
             </a>
           </div>
-          <div className="cards col-md-4 text-start position-relative d-flex flex-column justify-content-between  py-4 mt-md-0 mt-sm-5 mt-5">
+          <div className="cards col-md-4 text-start position-relative d-flex flex-column justify-content-between  p-5 mt-md-0 mt-sm-5 mt-5">
             <div className="card__content">
-              <h5 className="card__title text-muted">What's new</h5>
-              <h3 className="card__header">Ingestion without congestion</h3>
-              <p className="card__body">
-                In 8.3, get broader observabiliti for cloud, SaaS, and big data
-                apps with serverless log forwarding for AWS and performance
-                insights for Saleforce and Hadoop.
+              <h5 className="card__title  text-uppercase text-muted mb-4">What's new</h5>
+              <h3 className="card__header heading-secondary">Cross-cluster luster</h3>
+              <p className="card__body ">
+                In 8.3, easily search and replicate data between Elasticsearch clusters across hybrid environmets, seamlessly connecting from on-premises to the public cloud.
               </p>
             </div>
             <a
               href="/"
-              className="text__link-underline link-primary stretched-link  p-3 ps-0 "
+              className="text__link-underline--normal link-primary stretched-link  p-3 ps-0 "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -125,15 +121,15 @@ const SearchObserve = () => {
         <div className="container-lg">
           <Row className=" my-5 align-items-center">
             <Col sm="5" className="text-start">
-              <h1>What's new in 8.3</h1>
-              <p>
+              <h1 className="heading-primary">What's new in 8.3</h1>
+              <p className="content__body">
                 With Elastic Security for Cloud, new cloud-native integrations,
                 and the ability to search and replicate data across hybrid
                 environments — Elastic 8.3 is helping the world’s leading
                 organizations to search, solve, and succeed in a cloud-first
                 world.
               </p>
-              <a href="/" className="text__link-underline  p-3 ps-0">
+              <a href="/" className="text__link-underline--normal  p-3 ps-0">
                 <span className="me-1 text">Learn more</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

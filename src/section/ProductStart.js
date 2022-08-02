@@ -8,15 +8,15 @@ const ProductStart = () => {
   return (
     <section className="bg-light py-5">
       <div className=" container-md">
-        <div className="my-4">
-          <h1 className="fw-bold">The products that started it all</h1>
-          <p>
+        <div className="mb-5">
+          <h1 className="heading-primary">The products that started it all</h1>
+          <p className="content__body">
             All of our solutions are powered by the speed, scale, and
             flexibility of the Elastic (ELK) Stack.
           </p>
         </div>
         <Row className="justify-content-center position-relative">
-          <Col lg="9" sm="11" className=" bg-white  border shadow  p-4">
+          <Col lg="7" sm="11" className=" bg-white  border shadow  p-4 mt-5">
             <div className="d-md-flex d-sm-flex-column d-flex-column align-items-center">
               <div className="d-flex d- pe-lg-5 pe-md-3">
                 <img
@@ -25,8 +25,8 @@ const ProductStart = () => {
                   alt="enterprise search logo"
                 ></img>
                 <div className="text-start">
-                  <h4>Elasticsearch</h4>
-                  <p>
+                  <h3 className="heading-secondary">Elasticsearch</h3>
+                  <p className="content__body">
                     The fast and scalable search amd analytics engine at the
                     heart of the Elastic Stack
                   </p>
@@ -47,8 +47,8 @@ const ProductStart = () => {
                   alt="enterprise search logo"
                 ></img>
                 <div className="text-start">
-                  <h3>Kibana</h3>
-                  <p className="fs-6">
+                  <h3 className="heading-secondary">Kibana</h3>
+                  <p className="content__body">
                     The powerful and customizable visualization layer and user
                     interface for the Elastic Stack
                   </p>
@@ -58,9 +58,9 @@ const ProductStart = () => {
             <span className="d-inline-block my-4">
               <a
                 href="/"
-                className="text__link-underline  p-3 ps-0  stretched-link "
+                className="text__link-underline--normal  p-3 ps-0  stretched-link "
               >
-                <span className="me-1 text">Learn more</span>
+                <span className="me-1">Learn more</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"

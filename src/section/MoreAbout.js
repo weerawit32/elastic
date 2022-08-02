@@ -7,12 +7,12 @@ const MoreAbout = () => {
   return (
     <section className="moreAbout py-5">
       <div className=" container-md  text-center ">
-        <h1 className="my-5">More About Elastic</h1>
+        <h1 className="heading-primary mb-5">More About Elastic</h1>
         <Row className="text-start">
-          <Col md="4" sm="6" className="px-3 position-relative d-flex flex-column justify-content-between">
-            <div>
-              <h2 className="mb-3">We're hiring</h2>
-            <p>
+          <Col md="4" sm="6" className="card-content px-3 position-relative d-flex flex-column justify-content-between">
+            <div className="card-body">
+              <h2 className="heading-secondary">We're hiring</h2>
+            <p className="content__body">
               Just like our products, our company finds strength in
               distribution. For us, it's critical to building a great company
               and great products.
@@ -21,7 +21,7 @@ const MoreAbout = () => {
             
             <a
                 href="/"
-                className="text__link-underline link-dark stretched-link  p-3 ps-0 "
+                className="text__link-underline--normal link-dark stretched-link  p-3 ps-0 "
               >
               
                 <svg
@@ -40,8 +40,8 @@ const MoreAbout = () => {
           </Col>
           <Col md="4" sm="6" className="px-3 position-relative d-flex flex-column justify-content-between">
             <div>
-              <h2 className="mb-3">Our teams have character(s)</h2>
-            <p>
+              <h2 className="heading-secondary">Our teams have character(s)</h2>
+            <p className="content__body">
               From engineering to HR, marketing, sales, finance, and legal,
               learn what makes our teams tick, which fit is right for you, and
               where opportunities await.
@@ -50,7 +50,7 @@ const MoreAbout = () => {
             
             <a
                 href="/"
-                className="text__link-underline link-dark stretched-link  p-3 ps-0 "
+                className="text__link-underline--normal link-dark stretched-link  p-3 ps-0 "
               >
               
                 <svg
@@ -69,8 +69,8 @@ const MoreAbout = () => {
           </Col>
           <Col md="4" sm="6" className="position-relative d-flex flex-column justify-content-between">
             <div>
-              <h2 className="mb-3">Free and open, it's our heart</h2>
-            <p>
+              <h2 className="heading-secondary ">Free and open, it's our heart</h2>
+            <p className="content__body">
               Our company is built around free and open which builds a community
               that keeps everyone honest in how we engineer products that users
               know and love. arrow-white
@@ -79,7 +79,7 @@ const MoreAbout = () => {
             
             <a
                 href="/"
-                className="text__link-underline link-dark stretched-link  p-3 ps-0 "
+                className="text__link-underline--normal link-dark stretched-link  p-3 ps-0 "
               >
               
                 <svg
