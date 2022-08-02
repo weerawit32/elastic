@@ -1,7 +1,9 @@
 import { useState } from "react";
-import "../css/component/companyTrigger.style.css";
+import jaguarLogo from "../logo/logo-nav-dropdown-48x48-jaguar.png";
+import emirateLogo from "../logo/logo-nav-dropdown-48x48-emirates-nbd.png";
+import zurichLogo from "../logo/logo-nav-dropdown-48x48-zurich.png";
 
-const CompanyTrigger = () => {
+const CustomerTrigger = () => {
   const [isOpen, setOpen] = useState(false);
 
   const onMouseEnter = () => {
@@ -9,7 +11,7 @@ const CompanyTrigger = () => {
   };
 
   const onMouseLeave = () => {
-    setOpen(false);
+    setOpen(true);
   };
 
   return (
@@ -18,82 +20,110 @@ const CompanyTrigger = () => {
       onMouseOver={() => onMouseEnter()}
       onMouseLeave={() => onMouseLeave()}
     >
-      <span>Company</span>
+      <span>Customers</span>
       {isOpen && (
-        <div className=" tooltiptext tooltiptext--company d-flex shadow">
+        <div className=" tooltiptext tooltiptext--customers d-flex shadow">
           <div className="p-4  pt-2 border-end first-column">
-            <h6 className="topic__heading text-muted">About Elastic</h6>
+            <h6 className="topic__heading text-muted">Stories by use case</h6>
             <div className="link__panel p-1 pe-5  ">
               <div className="">
                 <a href="/" className="platform__link stretched-link ">
-                  About
+                  Enterprise Search
                 </a>
                 <p className="description text-muted">
-                  Our story and leadership
+                  Search applications of all kinds
                 </p>
               </div>
             </div>
             <div className="link__panel p-1 pe-5">
               <div className="">
                 <a href="/" className="platform__link stretched-link ">
-                  Press
+                  Observability
                 </a>
-                <p className="description text-muted">Elastic news</p>
+                <p className="description text-muted">
+                  Logs, metrics, APM, and more
+                </p>
               </div>
             </div>
             <div className="link__panel p-1 pe-5 ">
               <div className="">
                 <a href="/" className="platform__link stretched-link ">
-                  Investor Relations
+                  Security
                 </a>
                 <p className="description text-muted">
-                  Result, filing, resources
+                  SIEM, endpoint, cloud, and XDR
                 </p>
               </div>
             </div>
           </div>
           <div className="p-4  pt-2 second-column">
-            <h6 className="topic__heading text-muted">&nbsp;</h6>
+            <h6 className="topic__heading text-muted">Help center</h6>
             <div className="link__panel  p-1 pe-5 ">
               <div className="">
                 <a href="/" className="platform__link stretched-link ">
-                  Careers
+                  Customer success
                 </a>
                 <p className="description text-muted">
-                  Peruse our opportunities
+                  Customer guidance and resources
                 </p>
               </div>
             </div>
             <div className="link__panel  p-1 pe-5 ">
               <div className="">
                 <a href="/" className="platform__link stretched-link ">
-                  Partners
+                  Documentation
                 </a>
                 <p className="description text-muted">
-                  Find or become a partner
+                  Read latest product guides
                 </p>
               </div>
             </div>
             <div className="link__panel  p-1 pe-5 ">
               <div className="">
                 <a href="/" className="platform__link stretched-link ">
-                  Elastic Excellence Awards
+                  Contact us
                 </a>
-                <p className="description text-muted">See remarkable work</p>
+                <p className="description text-muted">
+                  Have questions? Get in touch
+                </p>
               </div>
             </div>
           </div>
           <div className="p-4  pt-2 third-column  bg-light">
-            <h6 className="topic__heading text-muted">Featured </h6>
-            <div className="link__panel  p-1 pe-5 ">
-              <div className="">
+            <h6 className="topic__heading text-muted">Featured Customers</h6>
+            <div className="link__panel d-flex p-1 pe-5">
+              <img src={jaguarLogo} width="40" height="40"></img>
+              <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
-                  Why now is the time tomove critical database to the cloud
+                  Jaguar Land Rover
                 </a>
+                <p className="description text-muted">Vehicle intelligence</p>
+              </div>
+            </div>
+            <div className="link__panel d-flex p-1 pe-5 postion-relative  ">
+              <img src={emirateLogo} width="40" height="40"></img>
+              <div className="ms-4">
+                <a href="/" className="platform__link stretched-link ">
+                  Emirates NBD
+                </a>
+                <p className="description text-muted">
+                  Secured billions in assets
+                </p>
+              </div>
+            </div>
+            <div className="link__panel d-flex p-1 pe-5 postion-relative border-bottom">
+              <img src={zurichLogo} width="40" height="40"></img>
+              <div className="ms-4">
+                <a href="/" className="platform__link stretched-link ">
+                  Zurich Insurance
+                </a>
+                <p className="description text-muted">
+                  Increased customers trust
+                </p>
               </div>
             </div>
             <a href="/" className="text__link-underline p-3 ps-0">
-              <span className="me-1 text">Read more</span>
+              <span className="me-1 text">View all case studies </span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -114,4 +144,4 @@ const CompanyTrigger = () => {
   );
 };
 
-export default CompanyTrigger;
+export default CustomerTrigger;

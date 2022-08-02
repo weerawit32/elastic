@@ -5,7 +5,7 @@ const ToggledMenu = ({ togglePlatform }) => {
   // const [platformIsopen, setPlatformIsopen] = useState(false);
 
   return (
-    <div className=" container-lg">
+    <div className="menu__container container-lg">
       <ul className="menu__list">
         <li className="list-item py-3" onClick={() => togglePlatform()}>
           <p>Platform</p> <span>Products</span>

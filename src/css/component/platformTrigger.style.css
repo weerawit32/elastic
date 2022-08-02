@@ -30,8 +30,20 @@
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
-  top: 40px;
-  left: 50px;
+  top: 35px;
+  left: -5px;
+}
+
+.tooltips .tooltiptext--company {
+  width: 600px;
+}
+
+.tooltips .tooltiptext--resources {
+  width: 740px;
+}
+
+.tooltips .tooltiptext--customers {
+  width: 740px;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
@@ -42,38 +54,6 @@
 .link__panel {
   transform: rotate(0);
   /* to scope stretched-link */
-  align-items: center;
-}
-
-.topic__heading {
-  font-weight: 600 !important;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin: 1rem 0;
-  margin-bottom: 1rem;
-}
-
-.description {
-  font-size: 1.1rem;
-  font-weight: normal;
-}
-
-.platform__link:link,
-.platform__link:visited {
-  text-decoration: none;
-  color: black;
-  font-weight: 400;
-  font-size: 1.1rem;
-  transition: all 0.1s;
-}
-
-.platform__link:hover,
-.platform__link:active {
-  color: rgb(67, 61, 148);
-}
-
-.link__panel {
   background-color: white;
   transition: all 0.7s;
 }
@@ -82,33 +62,47 @@
   background-color: skyblue;
 }
 
-.first-column {
-  flex-basis: 25%;
-}
-
-.text__link-underline:link,
-.text__link-underline:visited {
+.platform__link:link,
+.platform__link:visited {
   text-decoration: none;
-  font-weight: 600;
-  font-size: 1rem;
+  color: black;
+  font-weight: 700;
+  font-size: 1.4rem;
   transition: all 0.1s;
-  display: inline-block;
+  display: block;
   margin-bottom: 0.4rem;
 }
 
-.text__link-underline:hover,
-.text__link-underline:active {
-  text-decoration: underline;
+.platform__link:hover,
+.platform__link:active {
+  color: rgb(67, 61, 148);
 }
 
-.text__link-underline:link svg,
-.text__link-underline:visited svg {
-  transition: all 0.1s;
+.topic__heading {
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
-.text__link-underline:hover svg,
-.text__link-underline:active svg {
-  transform: translateX(20%);
+.topic__heading--noupper {
+  font-weight: 700;
+  font-size: 1.6rem;
+  /* letter-spacing: 1px; */
+  /* text-transform: uppercase; */
+  margin: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.first-column {
+  flex-basis: 25%;
 }
 
 .link__list {

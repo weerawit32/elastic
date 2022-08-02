@@ -1,7 +1,10 @@
 import { useState } from "react";
-import "../css/component/companyTrigger.style.css";
 
-const CompanyTrigger = () => {
+import pencilLogo from "../logo/icon-blog-pencil-32-color.svg";
+import trainingLogo from "../logo/icon-training-on-demand-32-color.svg";
+import certificateLogo from "../logo/icon-certificate-award-32-color.svg";
+
+const ResourcesTrigger = () => {
   const [isOpen, setOpen] = useState(false);
 
   const onMouseEnter = () => {
@@ -18,82 +21,97 @@ const CompanyTrigger = () => {
       onMouseOver={() => onMouseEnter()}
       onMouseLeave={() => onMouseLeave()}
     >
-      <span>Company</span>
+      <span>Resources</span>
       {isOpen && (
-        <div className=" tooltiptext tooltiptext--company d-flex shadow">
+        <div className=" tooltiptext tooltiptext--resources d-flex shadow">
           <div className="p-4  pt-2 border-end first-column">
-            <h6 className="topic__heading text-muted">About Elastic</h6>
+            <h6 className="topic__heading text-muted">Learn</h6>
             <div className="link__panel p-1 pe-5  ">
               <div className="">
                 <a href="/" className="platform__link stretched-link ">
-                  About
+                  Documentation
                 </a>
-                <p className="description text-muted">
-                  Our story and leadership
-                </p>
+                <p className="description text-muted">Products guides</p>
               </div>
             </div>
             <div className="link__panel p-1 pe-5">
               <div className="">
                 <a href="/" className="platform__link stretched-link ">
-                  Press
+                  Blogs
                 </a>
-                <p className="description text-muted">Elastic news</p>
+                <p className="description text-muted">
+                  Tech topics, innovation, news
+                </p>
               </div>
             </div>
             <div className="link__panel p-1 pe-5 ">
               <div className="">
                 <a href="/" className="platform__link stretched-link ">
-                  Investor Relations
+                  Training
                 </a>
                 <p className="description text-muted">
-                  Result, filing, resources
+                  Skill building and certification
                 </p>
               </div>
             </div>
           </div>
           <div className="p-4  pt-2 second-column">
-            <h6 className="topic__heading text-muted">&nbsp;</h6>
+            <h6 className="topic__heading text-muted">Engage</h6>
             <div className="link__panel  p-1 pe-5 ">
               <div className="">
                 <a href="/" className="platform__link stretched-link ">
-                  Careers
+                  Events
                 </a>
                 <p className="description text-muted">
-                  Peruse our opportunities
+                  ElasticOn, meetups, virtual events
                 </p>
               </div>
             </div>
             <div className="link__panel  p-1 pe-5 ">
               <div className="">
                 <a href="/" className="platform__link stretched-link ">
-                  Partners
+                  Community
                 </a>
-                <p className="description text-muted">
-                  Find or become a partner
-                </p>
+                <p className="description text-muted">Groups, forums, code</p>
               </div>
             </div>
             <div className="link__panel  p-1 pe-5 ">
               <div className="">
                 <a href="/" className="platform__link stretched-link ">
-                  Elastic Excellence Awards
+                  Consulting
                 </a>
-                <p className="description text-muted">See remarkable work</p>
+                <p className="description text-muted">Outcome-based services</p>
               </div>
             </div>
           </div>
           <div className="p-4  pt-2 third-column  bg-light">
             <h6 className="topic__heading text-muted">Featured </h6>
-            <div className="link__panel  p-1 pe-5 ">
-              <div className="">
+            <div className="link__panel d-flex p-1 pe-5">
+              <img src={pencilLogo} width="32" height="32"></img>
+              <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
-                  Why now is the time tomove critical database to the cloud
+                  Driving quatified success with Elastic Enterprise Search
+                </a>
+              </div>
+            </div>
+            <div className="link__panel d-flex p-1 pe-5 postion-relative  ">
+              <img src={trainingLogo} width="32" height="32"></img>
+              <div className="ms-4">
+                <a href="/" className="platform__link stretched-link ">
+                  Get startd with Elasticsearch
+                </a>
+              </div>
+            </div>
+            <div className="link__panel d-flex p-1 pe-5 postion-relative border-bottom">
+              <img src={certificateLogo} width="32" height="32"></img>
+              <div className="ms-4">
+                <a href="/" className="platform__link stretched-link ">
+                  Observability Engineer training
                 </a>
               </div>
             </div>
             <a href="/" className="text__link-underline p-3 ps-0">
-              <span className="me-1 text">Read more</span>
+              <span className="me-1 text">View all resources </span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -114,4 +132,4 @@ const CompanyTrigger = () => {
   );
 };
 
-export default CompanyTrigger;
+export default ResourcesTrigger;

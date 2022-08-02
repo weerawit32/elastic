@@ -10,7 +10,7 @@ import downloadIcon from "../logo/icon-download-16-blue.svg";
 import integratingIcon from "../logo/icon-integration-16-blue.svg";
 
 const PlatformTrigger = () => {
-  const [isOpen, setOpen] = useState(true);
+  const [isOpen, setOpen] = useState(false);
 
   const onMouseEnter = () => {
     setOpen(true);
@@ -29,14 +29,14 @@ const PlatformTrigger = () => {
       <span>Platform</span>
       {isOpen && (
         <div className=" tooltiptext d-flex  shadow">
-          <div className="p-4 pt-2 first-column bg-light">
+          <div className="p-5 pt-2 first-column bg-light">
             <div className="d-flex">
               <img src={elasticLogo} width="24" className="me-3"></img>
               <h6 className="topic__heading text-muted ">Elastic Clound</h6>
             </div>
 
-            <div className="link__panel">
-              <h6 className="topic__heading py-1">
+            <div className="link__panel bg-light">
+              <h6 className="topic__heading--noupper py-1">
                 Maximize value and optimize your experience
               </h6>
               <p className="description text-muted mb-4">

@@ -1,23 +1,18 @@
 import Button from "react-bootstrap/Button";
-// import Container from "react-bootstrap/Container";
-// import Nav from "react-bootstrap/Nav";
-// import Navbar from "react-bootstrap/Navbar";
 import elasticLogo from "../logo/elastic-logo.svg";
-// import ProductTrigger from "../components/ProductTrigger";
-// import ProductTrigger2 from "../components/ProductTrigger2";
-// import LearnTrigger from "../components/LearnTrigger";
-import CompanyTrigger from "../components/CompanyTrigger";
 import TestPlatform from "../components/testPlatform";
 import PlatformTrigger from "../components/PlatformTrigger";
 import UsecasesTrigger from "../components/UsecasesTrigger";
-// import CustomerTrigger from "../components/CustomerTrigger";
-// import "../css/navbar.style.css";
-import "../css/navbars.style.css";
+import CustomerTrigger from "../components/CustomerTrigger";
+import ResourcesTrigger from "../components/ResourcesTrigger";
+import CompanyTrigger from "../components/CompanyTrigger";
+
 import Hamburger from "hamburger-react";
 import { useState } from "react";
 import ToggledMenu from "../components/ToggledMenu";
 import PlatformDetail from "../components/platformDetail";
 import FooterMenu from "../components/FooterMenu";
+import "../css/navbars.style.css";
 
 function NavScrollExample() {
   const [isOpen, setOpen] = useState(false);
@@ -64,20 +59,18 @@ function NavScrollExample() {
               <UsecasesTrigger />
             </li>
             <li>
-              <a href="/" className="nav-link">
+              <a href="/" className="tooltips text-decoration-none">
                 Pricing
               </a>
             </li>
             <li>
-              <a href="/" className="nav-link">
-                {/* <CustomerTrigger /> */}
-                Customer
-              </a>
+              <CustomerTrigger />
             </li>
             <li>
-              <a href="/" className="nav-link">
-                Pricing
-              </a>
+              <ResourcesTrigger />
+            </li>
+            <li>
+              <CompanyTrigger />
             </li>
           </ul>
         </div>
@@ -85,11 +78,11 @@ function NavScrollExample() {
         <div className="d-xl-block d-none ms-md-auto">
           <ul className="nav__list nav__list-right">
             <li>
-              <a href="/" className="nav-link text-muted">
+              <a href="/" className="navbar-link">
                 Contact
               </a>
             </li>
-            <a href="/" className="nav-link text-muted">
+            <a href="/" className="navbar-link">
               Login
             </a>
             <li>
@@ -144,13 +137,13 @@ function NavScrollExample() {
           <Hamburger toggled={isOpen} toggle={testClose} />
         </div>
       </div>
-      <div className="toggleMenu__container container-lg d-md-none d-sm-block d-block">
+      <div className="toggleMenu__container container-fluid d-xl-none d-sm-block d-block">
         {isOpen && <ToggledMenu togglePlatform={platformToggle} />}
         <div className="platform container-fluid text-center">
           {platformIsopen && <PlatformDetail togglePlatform={platformToggle} />}
         </div>
+        <div className="footer__menu">{isOpen && <FooterMenu />}</div>
       </div>
-      <div className="footer__menu">{isOpen && <FooterMenu />}</div>
     </>
   );
 }

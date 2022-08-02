@@ -56,7 +56,7 @@ const UsecasesTrigger = () => {
 
             <a
               href="/"
-              className="text__link-underline text-muted fs-6 fw-bold align-center"
+              className="text__link-underline text-muted  align-center"
             >
               View all topics
             </a>
@@ -121,7 +121,7 @@ const UsecasesTrigger = () => {
             </div>
             <a
               href="/"
-              className="text__link-underline text-muted fs-6 fw-bold align-center"
+              className="text__link-underline text-muted align-center"
             >
               View all industries
             </a>
