@@ -11,7 +11,9 @@ const ToggledMenu = ({ togglePlatform }) => {
           <p>Platform</p> <span>Products</span>
         </li>
         <li className="list-item">
-          <a>Use cases</a>
+        <a href="/" className="stretch-link">
+            Use cases
+          </a>
         </li>
         <li className="list-item position-relative">
           <a href="/" className="stretch-link">

@@ -11,7 +11,7 @@ const CustomerTrigger = () => {
   };
 
   const onMouseLeave = () => {
-    setOpen(true);
+    setOpen(false);
   };
 
   return (
@@ -92,7 +92,7 @@ const CustomerTrigger = () => {
           <div className="p-4  pt-2 third-column  bg-light">
             <h6 className="topic__heading text-muted">Featured Customers</h6>
             <div className="link__panel d-flex p-1 pe-5">
-              <img src={jaguarLogo} width="40" height="40"></img>
+              <img src={jaguarLogo} alt="jaguar logo" width="40" height="40"></img>
               <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
                   Jaguar Land Rover
@@ -101,7 +101,7 @@ const CustomerTrigger = () => {
               </div>
             </div>
             <div className="link__panel d-flex p-1 pe-5 postion-relative  ">
-              <img src={emirateLogo} width="40" height="40"></img>
+              <img src={emirateLogo} alt="emirate logo" width="40" height="40"></img>
               <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
                   Emirates NBD
@@ -112,7 +112,7 @@ const CustomerTrigger = () => {
               </div>
             </div>
             <div className="link__panel d-flex p-1 pe-5 postion-relative border-bottom">
-              <img src={zurichLogo} width="40" height="40"></img>
+              <img src={zurichLogo} alt="zurich logo" width="40" height="40"></img>
               <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
                   Zurich Insurance

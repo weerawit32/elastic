@@ -86,24 +86,24 @@ const ResourcesTrigger = () => {
           </div>
           <div className="p-4  pt-2 third-column  bg-light">
             <h6 className="topic__heading text-muted">Featured </h6>
-            <div className="link__panel d-flex p-1 pe-5">
-              <img src={pencilLogo} width="32" height="32"></img>
+            <div className="link__panel bg-light d-flex p-1 pe-5">
+              <img src={pencilLogo} className="align-self-center" alt="pencil logo" width="32" height="32"></img>
               <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
                   Driving quatified success with Elastic Enterprise Search
                 </a>
               </div>
             </div>
-            <div className="link__panel d-flex p-1 pe-5 postion-relative  ">
-              <img src={trainingLogo} width="32" height="32"></img>
+            <div className="link__panel bg-light d-flex p-1 pe-5 postion-relative  ">
+              <img src={trainingLogo} className="align-self-center" alt="training logo" width="32" height="32"></img>
               <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
                   Get startd with Elasticsearch
                 </a>
               </div>
             </div>
-            <div className="link__panel d-flex p-1 pe-5 postion-relative border-bottom">
-              <img src={certificateLogo} width="32" height="32"></img>
+            <div className="link__panel bg-light d-flex p-1 pe-5 postion-relative border-bottom">
+              <img src={certificateLogo} className="align-self-center" alt="certificate logo" width="32" height="32"></img>
               <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
                   Observability Engineer training

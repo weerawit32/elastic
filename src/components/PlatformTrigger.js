@@ -31,7 +31,7 @@ const PlatformTrigger = () => {
         <div className=" tooltiptext d-flex  shadow">
           <div className="p-5 pt-2 first-column bg-light">
             <div className="d-flex">
-              <img src={elasticLogo} width="24" className="me-3"></img>
+              <img src={elasticLogo} width="24" alt="elastic logo" className="me-3"></img>
               <h6 className="topic__heading text-muted ">Elastic Clound</h6>
             </div>
 
@@ -67,19 +67,19 @@ const PlatformTrigger = () => {
             <ul className="link__list">
               <li>
                 <a href="/" className="text__link-underline mb-3  ">
-                  <img src={priceIcon} width="13" className="me-2"></img>
+                  <img src={priceIcon} width="13" alt="price icon" className="me-2"></img>
                   View pricing
                 </a>
               </li>
               <li>
                 <a href="/" className="text__link-underline mb-3">
-                  <img src={downloadIcon} width="13" className="me-2"></img>
+                  <img src={downloadIcon} width="13" alt="download icon" className="me-2"></img>
                   Free trial and downloads
                 </a>
               </li>
               <li>
                 <a href="/" className="text__link-underline">
-                  <img src={integratingIcon} width="13" className="me-2"></img>
+                  <img src={integratingIcon} width="13" alt="integrating icon" className="me-2"></img>
                   View all integrations
                 </a>
               </li>
@@ -88,7 +88,7 @@ const PlatformTrigger = () => {
           <div className="p-4 pt-2 border-end">
             <h6 className="topic__heading text-muted">Use elastic for</h6>
             <div className="link__panel d-flex p-1 pe-5">
-              <img src={enterpriseLogo} width="24"></img>
+              <img src={enterpriseLogo} width="24" alt="enterprise logo"></img>
               <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
                   Enterprise Search
@@ -99,7 +99,7 @@ const PlatformTrigger = () => {
               </div>
             </div>
             <div className="link__panel d-flex p-1 pe-5 postion-relative  ">
-              <img src={elasticObservabilityLogo} width="24"></img>
+              <img src={elasticObservabilityLogo} width="24" alt="observe logo"></img>
               <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
                   Observability
@@ -110,7 +110,7 @@ const PlatformTrigger = () => {
               </div>
             </div>
             <div className="link__panel d-flex p-1 pe-5 postion-relative border-bottom">
-              <img src={securityLogo} width="24"></img>
+              <img src={securityLogo} width="24" alt="security logo"></img>
               <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
                   Security
@@ -121,7 +121,7 @@ const PlatformTrigger = () => {
               </div>
             </div>
             <div className="link__panel d-flex p-1 pe-5 postion-relative  ">
-              <img src={elasticLogo} width="24"></img>
+              <img src={elasticLogo} width="24" alt="elastic logo"></img>
               <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
                   Elastic Clound
@@ -132,7 +132,7 @@ const PlatformTrigger = () => {
               </div>
             </div>
             <div className="link__panel d-flex p-1 pe-5 postion-relative  ">
-              <img src={stackLogo} width="24"></img>
+              <img src={stackLogo} width="24" alt="stack logo"></img>
               <div className="ms-4">
                 <a href="/" className="platform__link stretched-link ">
                   Elastic (ELK) Stack
@@ -192,6 +192,8 @@ const PlatformTrigger = () => {
                   We're hiring
                 </a>
                 <p className="description text-muted">
+
+                  
                   Join a global, distribution team
                 </p>
               </div>
