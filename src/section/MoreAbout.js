@@ -1,4 +1,3 @@
-import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../css/moreAbout.css";
@@ -10,13 +9,13 @@ const MoreAbout = () => {
         <h1 className="heading-primary mb-5">More About Elastic</h1>
         <Row className="text-start">
           <Col md="4" sm="6" className="card-content px-3 position-relative d-flex flex-column justify-content-between">
-            <div className="card-body">
+            <div className="">
               <h2 className="heading-secondary">We're hiring</h2>
-            <p className="content__body">
-              Just like our products, our company finds strength in
-              distribution. For us, it's critical to building a great company
-              and great products.
-            </p>
+              <p className="content__body">
+                Just like our products, our company finds strength in
+                distribution. For us, it's critical to building a great company
+                and great products.
+              </p>
             </div>
             
             <a

@@ -1,6 +1,6 @@
 import Button from "react-bootstrap/Button";
 import elasticLogo from "../logo/elastic-logo.svg";
-import TestPlatform from "../components/testPlatform";
+// import TestPlatform from "../components/testPlatform";
 import PlatformTrigger from "../components/PlatformTrigger";
 import UsecasesTrigger from "../components/UsecasesTrigger";
 import CustomerTrigger from "../components/CustomerTrigger";

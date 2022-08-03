@@ -43,7 +43,7 @@
 }
 
 .tooltips .tooltiptext--customers {
-  width: 740px;
+  width: 760px;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
@@ -66,7 +66,7 @@
 .platform__link:visited {
   text-decoration: none;
   color: black;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.4rem;
   transition: all 0.1s;
   display: block;
@@ -79,7 +79,7 @@
 }
 
 .topic__heading {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.2rem;
   letter-spacing: 1px;
   text-transform: uppercase;
