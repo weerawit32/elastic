@@ -11,7 +11,7 @@ const CustomerTrigger = () => {
   };
 
   const onMouseLeave = () => {
-    setOpen(true);
+    setOpen(false);
   };
 
   return (

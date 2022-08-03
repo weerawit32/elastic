@@ -38,6 +38,7 @@
   /* top: 100px; */
   z-index: 2;
   background: greenyellow;
+  overflow-y: scroll;
 }
 
 .platform {
