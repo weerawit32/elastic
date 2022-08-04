@@ -11,27 +11,44 @@ import Hamburger from "hamburger-react";
 import { useState } from "react";
 import ToggledMenu from "../components/ToggledMenu";
 import PlatformDetail from "../components/platformDetail";
+import UseCaseDetail from "../components/useCaseDetail";
 import FooterMenu from "../components/FooterMenu";
 import "../css/navbars.style.css";
 
 function NavScrollExample() {
   const [isOpen, setOpen] = useState(false);
   const [platformIsopen, setPlatformIsopen] = useState(false);
+  const [usecasesIsopen, setUsecasesIsopen] = useState(false);
+  const toggledMenuContainer = document.querySelector(".toggleMenu__container");
+
 
   const platformToggle = () => {
     setPlatformIsopen(!platformIsopen);
+  };
+
+  const usecasesToggle = () => {
+    setUsecasesIsopen(!usecasesIsopen);
+    console.log('use case', usecasesIsopen)
   };
 
   const testClose = () => {
     // console.log("before", isOpen);
     setOpen(!isOpen);
     // console.log("after", isOpen);
+    
 
     if (isOpen) {
       console.log("close");
       setPlatformIsopen(false);
+      setUsecasesIsopen(false);
+      document.body.classList.remove('body__overflow--hidden');
+      toggledMenuContainer.classList.remove("overflow-scroll");
+      toggledMenuContainer.classList.add("overflow-hidden");
+
     } else {
       console.log("open");
+      document.body.classList.add('body__overflow--hidden');
+      toggledMenuContainer.classList.add("overflow-scroll");
     }
   };
 
@@ -44,10 +61,10 @@ function NavScrollExample() {
     <>
       <div
         className="nav__container container-xl border-bottom"
-        style={{ maxHeight: "50px" }}
+        style={{ maxHeight: "80px" }}
       >
         <div>
-          <img src={elasticLogo} alt="elastic-l" width="80" height="70"></img>
+          <img src={elasticLogo} alt="elastic-l" width="110" height="70"></img>
         </div>
         <div className="d-xl-block d-none">
           <ul className="nav__list nav__list-left  ">
@@ -95,10 +112,10 @@ function NavScrollExample() {
             </li>
             <li>
               <Button
-                className="nav__btn nav__btn-try px-4 py-2"
+                className="nav__btn nav__btn-try px-4 py-1"
                 variant="primary"
               >
-                <span className="fw-bold">Try Free</span>
+                <span className="navbar-link text-white">Try Free</span>
               </Button>
             </li>{" "}
             <li>
@@ -137,10 +154,11 @@ function NavScrollExample() {
           <Hamburger toggled={isOpen} toggle={testClose} />
         </div>
       </div>
-      <div className="toggleMenu__container container-fluid d-xl-none d-sm-block d-block">
-        {isOpen && <ToggledMenu togglePlatform={platformToggle} />}
-        <div className="platform container-fluid text-center">
+      <div className="toggleMenu__container  container-fluid d-xl-none d-sm-block d-block">
+        {isOpen && <ToggledMenu togglePlatform={platformToggle} toggleUsecases={usecasesToggle} />}
+        <div className="platform container-fluid bg-white text-start">
           {platformIsopen && <PlatformDetail togglePlatform={platformToggle} />}
+          {usecasesIsopen && <UseCaseDetail toggleUsecases={usecasesToggle} />}
         </div>
         <div className="footer__menu">{isOpen && <FooterMenu />}</div>
       </div>

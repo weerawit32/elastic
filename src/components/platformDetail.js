@@ -12,8 +12,8 @@ const PlatformDetail = ({ togglePlatform }) => {
         Platform
       </div>
       <div className="content">
-        <div className="panel overflow-auto my-5">
-          <p className="platform__topic my-4 text-muted ">
+        <div className="panel my-5">
+          <p className="topic__heading my-4 text-muted ">
             ADDITIONAL RESOURCES
           </p>
           <ul className="platform__list text-start">
@@ -40,7 +40,7 @@ const PlatformDetail = ({ togglePlatform }) => {
           </ul>
         </div>
         <div className="panel my-5">
-          <p className="platform__topic my-4 text-muted ">USE ELASTIC FOR</p>
+          <p className="topic__heading my-4 text-muted ">USE ELASTIC FOR</p>
           <ul className="platform__list text-start">
             <li className="platform__item position-relative">
               <a href="/" className="platform__link strectch-link">
@@ -68,14 +68,14 @@ const PlatformDetail = ({ togglePlatform }) => {
               </a>
             </li>
             <li className="platform__item position-relative">
-              <a href="/" className="platform__link strectch-link">
+              <a href="/" className="platform__link text-bold strectch-link">
                 View platform overview
               </a>
             </li>
           </ul>
         </div>
         <div className="panel my-5">
-          <p className="platform__topic my-4 text-muted ">WHAT'S NEW</p>
+          <p className="topic__heading my-4 text-muted ">WHAT'S NEW</p>
           <ul className="platform__list text-start">
             <li className="platform__item position-relative">
               <a href="/" className="platform__link strectch-link">

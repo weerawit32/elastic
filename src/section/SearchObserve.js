@@ -17,7 +17,7 @@ const SearchObserve = () => {
             <h1 className="heading-special">
               Search. Observe. Protect.
             </h1>
-            <p className="col-md-8 col-sm-11 col-11 mb-5 mx-auto content__body">
+            <p className="col-md-10 col-sm-11 col-11 mb-5 mx-auto content__body">
             Accelerate results that matter, across any cloud. Easily deploy in your favorite public cloud, or in multiple clouds, and extend the value of Elastic with cloud-native features.</p>
             <Button variant="primary" className="py-3 px-5 mb-5">
               <span className="heading-tertiary">Getting started</span>
@@ -33,7 +33,7 @@ const SearchObserve = () => {
             border-bottom-md-0 border-sm-bottom border-bottom p-5"
           >
             <div className="card__content">
-              <h5 className="card__title text-uppercase text-muted mb-4">Analyst Reports</h5>
+              <h5 className="card__title heading-tertiary text-uppercase text-muted mb-4">Analyst Reports</h5>
               <h3 className="card__header heading-secondary">
                 The Forrester Wave Endpoint Detection and response Providers
                 2022
@@ -66,7 +66,7 @@ const SearchObserve = () => {
             border-bottom-md-0 border-sm-bottom border-bottom p-5"
           >
             <div className="card__content">
-              <h5 className="card__title  text-uppercase text-muted mb-4">Events & Webinars</h5>
+              <h5 className="card__title heading-tertiary  text-uppercase text-muted mb-4">Events & Webinars</h5>
               <h3 className="card__header heading-secondary">Get started with Elasticsearch</h3>
               <p className="card__body">
                 Watch this video to learn how to deploy, manage, and analyze
@@ -93,7 +93,7 @@ const SearchObserve = () => {
           </div>
           <div className="cards col-md-4 text-start position-relative d-flex flex-column justify-content-between  p-5 mt-md-0 mt-sm-5 mt-5">
             <div className="card__content">
-              <h5 className="card__title  text-uppercase text-muted mb-4">What's new</h5>
+              <h5 className="card__title heading-tertiary  text-uppercase text-muted mb-4">What's new</h5>
               <h3 className="card__header heading-secondary">Cross-cluster luster</h3>
               <p className="card__body ">
                 In 8.3, easily search and replicate data between Elasticsearch clusters across hybrid environmets, seamlessly connecting from on-premises to the public cloud.

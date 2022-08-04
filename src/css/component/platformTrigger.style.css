@@ -5,7 +5,7 @@
   font-weight: 700;
   opacity: 1;
   padding: 1rem 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 .tooltips span {
@@ -23,7 +23,7 @@
   background-color: white;
   color: black;
   text-align: start;
-  width: 810px;
+  width: 1050px;
   padding: 0px 0;
   border-radius: 6px;
 
@@ -67,7 +67,7 @@
   text-decoration: none;
   color: black;
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   transition: all 0.1s;
   display: block;
   margin-bottom: 0.4rem;
@@ -80,7 +80,7 @@
 
 .topic__heading {
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 1rem 0;
@@ -89,7 +89,7 @@
 
 .topic__heading--noupper {
   font-weight: 700;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   /* letter-spacing: 1px; */
   /* text-transform: uppercase; */
   margin: 1rem 0;
@@ -97,8 +97,8 @@
 }
 
 .description {
-  font-size: 1.2rem;
-  font-weight: normal;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .first-column {

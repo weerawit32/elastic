@@ -1,27 +1,13 @@
-import "../css/component/useCasesTrigger.style.css";
-import { useState } from "react";
-
-const UsecasesTrigger = () => {
-  const [isOpen, setOpen] = useState(false);
-
-  const onMouseEnter = () => {
-    setOpen(true);
-  };
-
-  const onMouseLeave = () => {
-    setOpen(false);
-  };
-
-  return (
-    <div
-      className="tooltips"
-      onMouseOver={() => onMouseEnter()}
-      onMouseLeave={() => onMouseLeave()}
-    >
-      <span>Use cases</span>
-      {isOpen && (
-        <div className=" tooltiptext d-flex shadow">
-          <div className="p-4  pt-2 border-end first-column">
+const UseCaseDetail = ({ toggleUsecases }) => {
+    return (
+        <div className="platform__conatainer  bg-white text-start">
+            <div
+                className="platform__header py-3 border-bottom "
+                onClick={() => toggleUsecases()}
+            >
+                Use cases
+            </div>
+            <div className="p-4  pt-2 border-end first-column">
             <h6 className="topic__heading text-muted">By topic</h6>
             <div className="link__panel p-1 pe-5  ">
               <div className="">
@@ -155,10 +141,8 @@ const UsecasesTrigger = () => {
               </svg>
             </a>
           </div>
-        </div>
-      )}
-    </div>
-  );
-};
+        </div> 
+    );
+}
 
-export default UsecasesTrigger;
+export default UseCaseDetail;

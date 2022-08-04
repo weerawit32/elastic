@@ -1,19 +1,17 @@
 import "../css/component/ToggledMenu.style.css";
 // import { useState } from "react";
 
-const ToggledMenu = ({ togglePlatform }) => {
+const ToggledMenu = ({ togglePlatform, toggleUsecases }) => {
   // const [platformIsopen, setPlatformIsopen] = useState(false);
 
   return (
-    <div className="menu__container container-lg">
+    <div className="menu__container container-fluid ">
       <ul className="menu__list">
         <li className="list-item py-3" onClick={() => togglePlatform()}>
           <p>Platform</p> <span>Products</span>
         </li>
-        <li className="list-item">
-        <a href="/" className="stretch-link">
-            Use cases
-          </a>
+        <li className="list-item" onClick={() => toggleUsecases()}>
+          <p>Use cases</p>
         </li>
         <li className="list-item position-relative">
           <a href="/" className="stretch-link">

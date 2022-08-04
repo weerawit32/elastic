@@ -16,7 +16,7 @@
   text-decoration: none;
   display: inline-block;
 
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: #6c757d;
   padding: 0.5rem 0.5rem;
@@ -34,10 +34,18 @@
 
 .toggleMenu__container {
   position: absolute;
-  height: 80vh;
+  height: calc(100vh - 250px);
   /* top: 100px; */
   z-index: 2;
-  background: greenyellow;
+  /* background: greenyellow; */
+  overflow-y: hidden;
+}
+
+.overflow-hidden {
+  overflow-y: hidden;
+}
+
+.overflow-scroll {
   overflow-y: scroll;
 }
 
