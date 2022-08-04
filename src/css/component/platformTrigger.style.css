@@ -4,7 +4,7 @@
   color: black;
   font-weight: 700;
   opacity: 1;
-  padding: 1rem 1.5rem;
+  padding: 2rem 1.5rem;
   font-size: 1.6rem;
 }
 
@@ -23,27 +23,27 @@
   background-color: white;
   color: black;
   text-align: start;
-  width: 1050px;
+  width: 1000px;
   padding: 0px 0;
   border-radius: 6px;
 
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
-  top: 35px;
-  left: -5px;
+  top: 60px;
+  left: -25px;
 }
 
 .tooltips .tooltiptext--company {
-  width: 600px;
+  width: 630px;
 }
 
 .tooltips .tooltiptext--resources {
-  width: 740px;
+  width: 800px;
 }
 
 .tooltips .tooltiptext--customers {
-  width: 760px;
+  width: 920px;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */

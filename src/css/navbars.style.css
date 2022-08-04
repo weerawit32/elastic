@@ -35,10 +35,7 @@
 .toggleMenu__container {
   position: absolute;
   height: calc(100vh - 250px);
-  /* top: 100px; */
   z-index: 2;
-  /* background: greenyellow; */
-  overflow-y: hidden;
 }
 
 .overflow-hidden {
