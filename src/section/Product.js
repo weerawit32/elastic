@@ -48,7 +48,9 @@ const Product = () => {
                 alt="elasti clound logo"
                 className="img-fluid"
               ></img>
-              <span className="heading-secondary align-self-center mb-0 ms-2 ">Elastic Clound</span>
+              <span className="heading-secondary align-self-center mb-0 ms-2 ">
+                Elastic Clound
+              </span>
             </div>
             <div className="product_title">
               <h2 className="heading-primary">
@@ -83,7 +85,7 @@ const Product = () => {
                   href="/"
                   className="text__link-underline--normal text-decoration-underline  "
                 >
-                  <span >Download our solutions</span>
+                  <span>Download our solutions</span>
                 </a>
                 &nbsp;or try one of our orchestration products:
                 <a
@@ -115,7 +117,9 @@ const Product = () => {
           <Col sm="5" className="product_content text-start p-4 ms-auto">
             <div className="product_logo_container d-flex align-items-center mb-5">
               <img src={enterpriseLogo} alt="enterprise logo"></img>
-              <span className="heading-secondary align-self-center mb-0 ms-2">Elastic Enterprise Search</span>
+              <span className="heading-secondary align-self-center mb-0 ms-2">
+                Elastic Enterprise Search
+              </span>
             </div>
             <div className="product_title">
               <h2 className="heading-primary">Search everything, anywhere</h2>
@@ -153,10 +157,16 @@ const Product = () => {
                   We have a mix of two important things — a fast, powerful
                   search engine from Elastic and the right content.
                 </p>
-                <div className="d-flex" >
-                  <img src={shopifyLogo} alt="shopify logo" className="img-fluid"></img>
+                <div className="d-flex">
+                  <img
+                    src={shopifyLogo}
+                    alt="shopify logo"
+                    className="img-fluid"
+                  ></img>
                   <div class="vr mx-3"></div>
-                  <span className="fs-6 fw-bold align-self-center">Documentation Lead</span>
+                  <span className="fs-6 fw-bold align-self-center">
+                    Documentation Lead
+                  </span>
                 </div>
               </div>
             </div>
@@ -168,7 +178,9 @@ const Product = () => {
                 alt="elastic observability logo"
                 className="img-fluid"
               ></img>
-              <span className="heading-secondary align-self-center mb-0 ms-2">Elastic Observability</span>
+              <span className="heading-secondary align-self-center mb-0 ms-2">
+                Elastic Observability
+              </span>
             </div>
             <div className="product_title">
               <h2 className="heading-primary">Observe your entire ecosystem</h2>
@@ -216,7 +228,9 @@ const Product = () => {
                     alt="volvo logo"
                   ></img>
                   <div class="vr mx-3"></div>
-                  <span className="fs-6 fw-bold align-self-center">IT Infrastructure Architect</span>
+                  <span className="fs-6 fw-bold align-self-center">
+                    IT Infrastructure Architect
+                  </span>
                 </div>
               </div>
             </div>
@@ -234,10 +248,14 @@ const Product = () => {
           <Col sm="5" className="product_content text-start p-4 ms-auto">
             <div className="product_logo_container d-flex align-items-center mb-5">
               <img src={securityLogo} alt="security logo"></img>
-              <span className="heading-secondary align-self-center mb-0 ms-2">Elastic Security</span>
+              <span className="heading-secondary align-self-center mb-0 ms-2">
+                Elastic Security
+              </span>
             </div>
             <div className="product_title">
-              <h2 className="heading-primary">Protect against security threats</h2>
+              <h2 className="heading-primary">
+                Protect against security threats
+              </h2>
             </div>
             <div className="product_body">
               <p className="content__body">
@@ -275,9 +293,15 @@ const Product = () => {
                   threats.
                 </p>
                 <div className="d-flex">
-                  <img src={barclaysLogo} alt="barclays logo" className="img-fluid"></img>
+                  <img
+                    src={barclaysLogo}
+                    alt="barclays logo"
+                    className="img-fluid"
+                  ></img>
                   <div class="vr mx-3"></div>
-                  <span className="fs-6 fw-bold align-self-center">Documentation Lead</span>
+                  <span className="fs-6 fw-bold align-self-center">
+                    Documentation Lead
+                  </span>
                 </div>
               </div>
             </div>
