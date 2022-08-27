@@ -11,7 +11,9 @@ const AllCustomer = () => {
       <div className="container-lg">
         <div className="row justify-content-center">
           <div className="col-md-8  col-sm-10 text-content my-5 ">
-            <h1 className=" heading-primary">Our customers bring search to life</h1>
+            <h1 className=" heading-primary">
+              Our customers bring search to life
+            </h1>
             <p className="content__body  col-lg-10 col-sm-10 mx-auto">
               From startups to the global 2000, Elastic powers search solutions
               for thousands of companies worldwide to find documents, monitor
@@ -54,14 +56,18 @@ const AllCustomer = () => {
             ></img>
           </a>
         </div>
-        <div>
-          <a href="/" className="text__link-underline--normal  p-3 ps-0  ">
+        <div className="d-flex justify-content-center">
+          <a
+            href="/"
+            className="text__link-underline--normal d-flex   p-3 ps-0  "
+          >
             <span className="me-1 ">View all customers</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
               height="22"
               class="bi bi-arrow-right"
+              className="align-self-center"
               viewBox="0 0 16 16"
             >
               <path
