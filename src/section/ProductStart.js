@@ -15,12 +15,8 @@ const ProductStart = () => {
             flexibility of the Elastic (ELK) Stack.
           </p>
         </div>
-        <Row className="justify-content-center ">
-          <Col
-            lg="7"
-            sm="11"
-            className=" bg-white  border shadow  p-4 mt-5 position-relative"
-          >
+        <Row className="justify-content-center position-relative">
+          <Col lg="7" sm="11" className=" bg-white  border shadow  p-4 mt-5">
             <div className="d-md-flex d-sm-flex-column d-flex-column align-items-center">
               <div className="d-flex d- pe-lg-5 pe-md-3">
                 <img
