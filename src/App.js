@@ -11,15 +11,16 @@ import Footer from "./section/Footer/Footer";
 import ProductStart from "./section/ProductStart";
 // import navBars2 from "./section/navBars";
 
+
 function App() {
   return (
     <div className="App">
       <NavScrollExample />
       <SearchObserve />
       <AllCustomer />
-      <Product />
-      <ProductStart />
-      <Advantage />
+      <Product/>
+      <ProductStart/>
+      <Advantage/>
       <MoreAbout />
       <Footer />
     </div>
