@@ -164,7 +164,7 @@ const Product = () => {
                     className="img-fluid"
                   ></img>
                   <div class="vr mx-3"></div>
-                  <span className="fs-6 fw-bold align-self-center">
+                  <span className="fs-4 fw-bold align-self-center">
                     Documentation Lead
                   </span>
                 </div>
@@ -228,7 +228,7 @@ const Product = () => {
                     alt="volvo logo"
                   ></img>
                   <div class="vr mx-3"></div>
-                  <span className="fs-6 fw-bold align-self-center">
+                  <span className="fs-4 fw-bold align-self-center">
                     IT Infrastructure Architect
                   </span>
                 </div>
@@ -299,7 +299,7 @@ const Product = () => {
                     className="img-fluid"
                   ></img>
                   <div class="vr mx-3"></div>
-                  <span className="fs-6 fw-bold align-self-center">
+                  <span className="fs-4 fw-bold align-self-center">
                     Documentation Lead
                   </span>
                 </div>
