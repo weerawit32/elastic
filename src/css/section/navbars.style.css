@@ -32,6 +32,10 @@
   gap: 1rem;
 }
 
+.search-icon {
+  cursor: pointer;
+}
+
 .toggleMenu__container {
   position: absolute;
   height: calc(100vh - 250px);
@@ -43,7 +47,7 @@
 }
 
 .overflow-scroll {
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .platform {

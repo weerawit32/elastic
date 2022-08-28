@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import firstVideo from "../video/video-home-enterprise-search.mp4";
 import rightArrow from "../logo/right-arrow.svg";
-import "../section/SearchObserve/SearchObserve.style.css";
+import "../css/section/SearchObserve.style.css";
 
 const SearchObserve = () => {
   return (
@@ -142,7 +142,7 @@ const SearchObserve = () => {
                 organizations to search, solve, and succeed in a cloud-first
                 world.
               </p>
-              
+
               <a
                 href="/"
                 className="text__link-underline--normal d-flex  p-3 ps-0"
