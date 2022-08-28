@@ -10,12 +10,12 @@ import Form from "react-bootstrap/Form";
 // import youtubeLogo from "../../logo/youtube-icon.svg";
 // import linkedLogo from "../../logo/linked-icon.svg";
 import Badge from "react-bootstrap/Badge";
-import elasticLogoReverse from "../../logo/logo-elastic-vertical-reverse (1).svg";
+import elasticLogoReverse from "../logo/logo-elastic-vertical-reverse (1).svg";
 
-import Subscribe from "../../components/Subscribe";
-import SocialLogo from "../../components/SocialLogo";
+import Subscribe from "../components/Subscribe";
+import SocialLogo from "../components/SocialLogo";
 
-import "./Footer.style.css";
+import "../css/section/Footer.style.css";
 
 const Footer = () => {
   return (
@@ -29,7 +29,7 @@ const Footer = () => {
             <div className="d-sm-none d-none d-md-block d-lg-none ms-auto">
               <span className="me-4">Follow us</span>
               <div className="d-flex mt-4">
-                <SocialLogo/>
+                <SocialLogo />
               </div>
             </div>
           </div>
@@ -185,7 +185,7 @@ const Footer = () => {
           <div className="d-sm-block d-block d-md-none text-white text-start">
             <span className="me-4">Follow us</span>
             <div className="d-flex mt-4">
-              <SocialLogo/>
+              <SocialLogo />
             </div>
           </div>
 
@@ -197,7 +197,7 @@ const Footer = () => {
             <Subscribe />
             <div className="d-flex align-item-center ">
               <span className="me-4 align-self-center">Follow us</span>
-              <SocialLogo/>  
+              <SocialLogo />
             </div>
           </Col>
         </Row>

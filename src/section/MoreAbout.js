@@ -1,6 +1,6 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "../css/moreAbout.css";
+import "../css/section/moreAbout.style.css";
 
 const MoreAbout = () => {
   return (

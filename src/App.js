@@ -7,10 +7,9 @@ import MoreAbout from "./section/MoreAbout";
 import Product from "./section/Product";
 // import Products from "./section/Products";
 import Advantage from "./section/Adventage";
-import Footer from "./section/Footer/Footer";
+import Footer from "./section/Footer";
 import ProductStart from "./section/ProductStart";
 // import navBars2 from "./section/navBars";
-
 
 function App() {
   return (
@@ -18,9 +17,9 @@ function App() {
       <NavScrollExample />
       <SearchObserve />
       <AllCustomer />
-      <Product/>
-      <ProductStart/>
-      <Advantage/>
+      <Product />
+      <ProductStart />
+      <Advantage />
       <MoreAbout />
       <Footer />
     </div>

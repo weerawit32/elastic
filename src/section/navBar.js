@@ -18,7 +18,7 @@ import ResourcesDeail from "../components/resourcesDetail";
 import FooterMenu from "../components/FooterMenu";
 import CompanyDetail from "../components/CompanyDetail";
 
-import "../css/navbars.style.css";
+import "../css/section/navbars.style.css";
 
 function NavScrollExample() {
   const [isOpen, setOpen] = useState(false);
@@ -28,6 +28,10 @@ function NavScrollExample() {
   const [resourcesIsopen, setResourcesIsopen] = useState(false);
   const [companyIsopen, setCompanyIsopen] = useState(false);
   const toggledMenuContainer = document.querySelector(".toggleMenu__container");
+  // Off canvas
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(!show);
 
   const platformToggle = () => {
     setPlatformIsopen(!platformIsopen);
@@ -139,20 +143,71 @@ function NavScrollExample() {
               </Button>
             </li>{" "}
             <li>
-              <a href="/" className="link-primary">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  class="bi bi-search"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                  />
-                </svg>
-              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+                className="link-primary icon"
+                onClick={handleShow}
+              >
+                <path
+                  fill="currentColor"
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+              <div className={show ? "drawer active" : "drawer"}>
+                <div className="d-flex justify-content-center">
+                  <div className="my-3 mt-5 border-bottom col-11">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      class="bi bi-search"
+                      fill="currentColor"
+                      viewBox="0 0 16 16"
+                      className="text-white mx-2 mb-2"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                      />
+                    </svg>
+                    <input className=" mx-2 drawer-input"></input>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="25"
+                      height="25"
+                      fill="currentColor"
+                      class="bi bi-x"
+                      viewBox="0 0 16 16"
+                      className="text-white icon m-2"
+                      onClick={handleShow}
+                    >
+                      <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              {/* <Offcanvas
+                show={show}
+                onHide={handleClose}
+                placement="top"
+                className="bg-primary"
+              >
+                <Offcanvas.Header closeButton>
+                  <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                </Offcanvas.Header>
+                <Offcanvas.Body>
+                  <div className="border-bottom display-inline-block">
+                    <input
+                      className="col-8 bg-transparent border m-2"
+                      type="text"
+                    ></input>
+                  </div>
+                </Offcanvas.Body>
+              </Offcanvas> */}
             </li>
           </ul>
         </div>
