@@ -33,6 +33,7 @@ function NavScrollExample() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(!show);
 
+  // Toggle Menu
   const platformToggle = () => {
     setPlatformIsopen(!platformIsopen);
   };
@@ -67,6 +68,7 @@ function NavScrollExample() {
       setCustomersIsopen(false);
       setResourcesIsopen(false);
       setCompanyIsopen(false);
+      // Scroll Bar
       document.body.classList.remove("body__overflow--hidden");
       toggledMenuContainer.classList.remove("overflow-scroll");
       toggledMenuContainer.classList.add("overflow-hidden");
